@@ -16,8 +16,9 @@ class PostInstallCommand(install):
 
         dataset_id = os.environ.get('MS_DATASET_ID', '').strip()
         if not dataset_id:
-            print("[setup] 未设置 MS_DATASET_ID，跳过从 ModelScope 拉取。")
-            return
+            # 默认使用 deepghs/arknights_voices_zh
+            dataset_id = 'deepghs/arknights_voices_zh'
+            print(f"[setup] 未设置 MS_DATASET_ID，使用默认数据集：{dataset_id}")
 
         project_root = os.path.dirname(os.path.abspath(__file__))
         voices_dir = os.path.join(project_root, 'lib', 'ref', 'voices')
