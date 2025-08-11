@@ -30,14 +30,18 @@ OCR: PaddlePaddle
 ## 安装要求
 
 ### 系统要求
-- Python 3.11+
+- Python 3.11
 - macOS/Linux/Windows
 - 硅基流动API密钥（用于TTS服务）
 
 ### 依赖安装
 
-1. 激活虚拟环境：
+1. 创建并激活虚拟环境：
 ```bash
+# 创建 Python 3.11 虚拟环境
+python3.11 -m venv venv
+
+# 激活虚拟环境
 source venv/bin/activate  # macOS/Linux
 # 或
 venv\Scripts\activate     # Windows
@@ -45,7 +49,7 @@ venv\Scripts\activate     # Windows
 
 2. 安装Python依赖：
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 3. 下载音频数据：
@@ -242,6 +246,17 @@ SILICONFLOW_API_KEY = "your_api_key_here"
    - 检查文件编码为UTF-8
    - 验证变量名格式正确（区分大小写）
    - 重启应用以重新加载环境变量
+
+6. **Python版本问题**
+   - 确保使用 Python 3.11 或更高版本
+   - 检查虚拟环境是否正确创建：`python --version`
+   - 如果版本不匹配，重新创建虚拟环境：
+     ```bash
+     rm -rf venv
+     python3.11 -m venv venv
+     source venv/bin/activate
+     pip install -r requirements.txt
+     ```
 
 ## 开发说明
 
