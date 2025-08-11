@@ -1,0 +1,6226 @@
+{
+  "summary": {
+    "total_operators": 388,
+    "operators_with_voice_data": 426,
+    "operators_with_audio": 375,
+    "operators_with_complete_resources": 375,
+    "operators_with_incomplete_resources": 13,
+    "operators_without_voice_data": 0,
+    "operators_without_audio": 13
+  },
+  "complete_operators": [
+    "12F",
+    "阿",
+    "阿兰娜",
+    "阿罗玛",
+    "阿米娅(近卫)",
+    "阿米娅(医疗)",
+    "阿米娅",
+    "阿斯卡纶",
+    "阿消",
+    "埃拉托",
+    "艾丽妮",
+    "爱丽丝",
+    "艾丝黛尔",
+    "艾雅法拉",
+    "安比尔",
+    "安德切尔",
+    "安洁莉娜",
+    "安赛尔",
+    "暗索",
+    "安哲拉",
+    "奥达",
+    "奥斯塔",
+    "柏喙",
+    "白金",
+    "百炼嘉维尔",
+    "白面鸮",
+    "拜松",
+    "白铁",
+    "白雪",
+    "斑点",
+    "薄绿",
+    "暴行",
+    "暴雨",
+    "贝娜",
+    "鞭刃",
+    "冰酿",
+    "波卜",
+    "波登可",
+    "布丁",
+    "布洛卡",
+    "CONFESS-47",
+    "裁度",
+    "苍苔",
+    "Castle-3",
+    "缠丸",
+    "车尔尼",
+    "陈",
+    "骋风",
+    "澄闪",
+    "承曦格雷伊",
+    "赤冬",
+    "斥罪",
+    "仇白",
+    "初雪",
+    "纯烬艾雅法拉",
+    "刺玫",
+    "伺夜",
+    "淬羽赫默",
+    "嵯峨",
+    "达格达",
+    "戴菲恩",
+    "但书",
+    "德克萨斯",
+    "地灵",
+    "蒂比",
+    "涤火杰西卡",
+    "电弧",
+    "调香师",
+    "豆苗",
+    "杜宾",
+    "杜林",
+    "渡桥",
+    "断崖",
+    "断罪者",
+    "铎铃",
+    "多萝西",
+    "芳汀",
+    "菲莱",
+    "菲亚梅塔",
+    "芬",
+    "风笛",
+    "风丸",
+    "Friston-3",
+    "芙兰卡",
+    "芙蓉",
+    "格拉尼",
+    "格劳克斯",
+    "歌蕾蒂娅",
+    "格雷伊",
+    "古米",
+    "归溟幽灵鲨",
+    "瑰盐",
+    "傀影",
+    "哈洛德",
+    "海蒂",
+    "海沫",
+    "海霓",
+    "寒芒克洛丝",
+    "寒檀",
+    "号角",
+    "赫德雷",
+    "褐果",
+    "赫拉格",
+    "赫默",
+    "和弦",
+    "黑",
+    "黑键",
+    "黑角",
+    "衡沙",
+    "吽",
+    "红",
+    "红豆",
+    "红隼",
+    "鸿雪",
+    "红云",
+    "华法琳",
+    "槐琥",
+    "煌",
+    "荒芜拉普兰德",
+    "灰毫",
+    "灰喉",
+    "霍尔海雅",
+    "火龙S黑角",
+    "火哨",
+    "火神",
+    "棘刺",
+    "极光",
+    "极境",
+    "吉星",
+    "假日威龙陈",
+    "贾维",
+    "嘉维尔",
+    "锏",
+    "坚雷",
+    "缄默德克萨斯",
+    "见行者",
+    "角峰",
+    "孑",
+    "杰克",
+    "杰西卡",
+    "截云",
+    "惊蛰",
+    "九色鹿",
+    "酒神",
+    "卡达",
+    "卡夫卡",
+    "卡涅利安",
+    "卡缇",
+    "凯尔希",
+    "凯瑟琳",
+    "刻刀",
+    "刻俄柏",
+    "克洛丝",
+    "可颂",
+    "空",
+    "空爆",
+    "空构",
+    "空弦",
+    "苦艾",
+    "拉普兰德",
+    "莱恩哈特",
+    "莱伊",
+    "蓝毒",
+    "Lancet-2",
+    "老鲤",
+    "蕾缪安",
+    "雷蛇",
+    "砾",
+    "历阵锐枪芬",
+    "猎蜂",
+    "烈夏",
+    "林",
+    "凛冬",
+    "临光",
+    "琳琅诗怀雅",
+    "凛视",
+    "令",
+    "铃兰",
+    "聆音",
+    "翎羽",
+    "灵知",
+    "流明",
+    "流星",
+    "龙舌兰",
+    "露托",
+    "录武官",
+    "罗比菈塔",
+    "罗宾",
+    "逻各斯",
+    "洛洛",
+    "罗小黑",
+    "掠风",
+    "玛恩纳",
+    "麦哲伦",
+    "梅",
+    "梅尔",
+    "玫拉",
+    "玫兰莎",
+    "迷迭香",
+    "米格鲁",
+    "蜜蜡",
+    "蜜莓",
+    "谜图",
+    "明椒",
+    "Miss.Christine",
+    "摩根",
+    "莫斯提马",
+    "魔王",
+    "末药",
+    "Mon3tr",
+    "缪尔赛思",
+    "暮落",
+    "钼铅",
+    "慕斯",
+    "娜仁图亚",
+    "能天使",
+    "妮芙",
+    "泥岩",
+    "年",
+    "诺威尔",
+    "帕拉斯",
+    "泡泡",
+    "泡普卡",
+    "佩佩",
+    "PhonoR-0",
+    "Pith",
+    "普罗旺斯",
+    "绮良",
+    "麒麟R夜刀",
+    "铅踝",
+    "琴柳",
+    "清道夫",
+    "清流",
+    "青枳",
+    "忍冬",
+    "熔泉",
+    "塞雷娅",
+    "桑葚",
+    "森蚺",
+    "莎草",
+    "山",
+    "闪灵",
+    "Sharp",
+    "慑砂",
+    "蛇屠箱",
+    "深靛",
+    "深海色",
+    "深律",
+    "深巡",
+    "圣约送葬人",
+    "史都华德",
+    "史尔特尔",
+    "诗怀雅",
+    "弑君者",
+    "石棉",
+    "蚀清",
+    "食铁兽",
+    "狮蝎",
+    "石英",
+    "守林人",
+    "黍",
+    "霜叶",
+    "水灯心",
+    "水月",
+    "斯卡蒂",
+    "死芒",
+    "司霆惊蛰",
+    "四月",
+    "松果",
+    "松桐",
+    "送葬人",
+    "Stormeye",
+    "苏苏洛",
+    "塑心",
+    "酸糖",
+    "燧石",
+    "THRM-EX",
+    "桃金娘",
+    "特克诺",
+    "特米米",
+    "提丰",
+    "天火",
+    "Touch",
+    "图耶",
+    "推进之王",
+    "U-Official",
+    "W",
+    "万顷",
+    "苇草",
+    "维荻",
+    "微风",
+    "维娜·维多利亚",
+    "维什戴尔",
+    "薇薇安娜",
+    "温蒂",
+    "温米",
+    "乌尔比安",
+    "巫恋",
+    "乌有",
+    "夕",
+    "锡兰",
+    "锡人",
+    "稀音",
+    "瑕光",
+    "夏栎",
+    "香草",
+    "晓歌",
+    "小满",
+    "信仰搅拌机",
+    "新约能天使",
+    "星极",
+    "杏仁",
+    "星熊",
+    "星源",
+    "行箸",
+    "休谟斯",
+    "絮雨",
+    "雪绒",
+    "雪雉",
+    "寻澜",
+    "巡林者",
+    "讯使",
+    "崖心",
+    "亚叶",
+    "宴",
+    "炎客",
+    "炎熔",
+    "焰尾",
+    "焰影苇草",
+    "炎狱炎熔",
+    "洋灰",
+    "遥",
+    "耀骑士临光",
+    "夜半",
+    "夜刀",
+    "耶拉",
+    "夜魔",
+    "夜烟",
+    "夜莺",
+    "野鬃",
+    "伊芙利特",
+    "异客",
+    "伊内丝",
+    "伊桑",
+    "隐德来希",
+    "银灰",
+    "因陀罗",
+    "隐现",
+    "引星棘刺",
+    "幽灵鲨",
+    "余",
+    "郁金香",
+    "羽毛笔",
+    "远山",
+    "远牙",
+    "月禾",
+    "月见夜",
+    "跃跃",
+    "云迹",
+    "陨星",
+    "早露",
+    "斩业星熊",
+    "折光",
+    "真理",
+    "正义骑士号",
+    "至简",
+    "止颂",
+    "重岳",
+    "烛煌",
+    "铸铁",
+    "濯尘芙蓉",
+    "浊心斯卡蒂",
+    "梓兰",
+    "子月",
+    "左乐"
+  ],
+  "incomplete_operators": [
+    "艾拉",
+    "导火索",
+    "灰烬",
+    "莱欧斯",
+    "玛露西尔",
+    "齐尔查克",
+    "森西",
+    "闪击",
+    "霜华",
+    "双月",
+    "泰拉大陆调查团",
+    "医生",
+    "战车"
+  ],
+  "missing_voice_data": [],
+  "missing_audio": [
+    "艾拉",
+    "导火索",
+    "灰烬",
+    "莱欧斯",
+    "玛露西尔",
+    "齐尔查克",
+    "森西",
+    "闪击",
+    "霜华",
+    "双月",
+    "泰拉大陆调查团",
+    "医生",
+    "战车"
+  ],
+  "detailed_results": {
+    "12F": {
+      "operator_name": "12F",
+      "voice_data_file": "voc_data/voice_data_12F.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "阿": {
+      "operator_name": "阿",
+      "voice_data_file": "voc_data/voice_data_阿.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "阿兰娜": {
+      "operator_name": "阿兰娜",
+      "voice_data_file": "voc_data/voice_data_阿兰娜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "阿罗玛": {
+      "operator_name": "阿罗玛",
+      "voice_data_file": "voc_data/voice_data_阿罗玛.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "阿米娅(近卫)": {
+      "operator_name": "阿米娅(近卫)",
+      "voice_data_file": "voc_data/voice_data_阿米娅(近卫).csv",
+      "voice_data_exists": true,
+      "voice_entries": 36,
+      "missing_audio_files": [],
+      "total_expected_audio": 36,
+      "total_actual_audio": 36
+    },
+    "阿米娅(医疗)": {
+      "operator_name": "阿米娅(医疗)",
+      "voice_data_file": "voc_data/voice_data_阿米娅(医疗).csv",
+      "voice_data_exists": true,
+      "voice_entries": 36,
+      "missing_audio_files": [],
+      "total_expected_audio": 36,
+      "total_actual_audio": 36
+    },
+    "阿米娅": {
+      "operator_name": "阿米娅",
+      "voice_data_file": "voc_data/voice_data_阿米娅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "阿斯卡纶": {
+      "operator_name": "阿斯卡纶",
+      "voice_data_file": "voc_data/voice_data_阿斯卡纶.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "阿消": {
+      "operator_name": "阿消",
+      "voice_data_file": "voc_data/voice_data_阿消.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "艾拉": {
+      "operator_name": "艾拉",
+      "voice_data_file": "voc_data/voice_data_艾拉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4123_ela",
+          "title": "任命助理",
+          "expected_filename": "艾拉_任命助理_88ac11b25fa96501f3827fa0b59ad688.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "交谈1",
+          "expected_filename": "艾拉_交谈1_548f563443f912fc21a1eaf072da281f.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "交谈2",
+          "expected_filename": "艾拉_交谈2_f22545dc37ebce1c99dd58c30e9a0f22.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "交谈3",
+          "expected_filename": "艾拉_交谈3_4aee682dd23bddba42b7c39a82ed53dc.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "晋升后交谈1",
+          "expected_filename": "艾拉_晋升后交谈1_2384d443c2ee9fafee97ca95876446ae.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "晋升后交谈2",
+          "expected_filename": "艾拉_晋升后交谈2_2eabf9383c29006a67727a69ef88c534.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "艾拉_信赖提升后交谈1_ef55c3fb060593baa0d5424d3372a1e7.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "艾拉_信赖提升后交谈2_027fc61208d149e29616237f0e8f9a7e.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "艾拉_信赖提升后交谈3_199ed5cbd5f4ad74d8c84e413b8b09d1.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "闲置",
+          "expected_filename": "艾拉_闲置_1f9aebf28b1c4db04973e6a1bd0a9700.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "干员报到",
+          "expected_filename": "艾拉_干员报到_7bf6b5a7b577ad2fe1cc558261bddd3f.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "观看作战记录",
+          "expected_filename": "艾拉_观看作战记录_ff0b2e7778c19ffae8bc28cddd2867fd.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "精英化晋升1",
+          "expected_filename": "艾拉_精英化晋升1_7696dd157bd4e438d644608af05f32e0.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "精英化晋升2",
+          "expected_filename": "艾拉_精英化晋升2_841903513f9ab5933540883568372a3d.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "编入队伍",
+          "expected_filename": "艾拉_编入队伍_491ef65d622ed14ff4a637cce8274743.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "任命队长",
+          "expected_filename": "艾拉_任命队长_f79922418a7986cfdf9c07ef3e39664c.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "行动出发",
+          "expected_filename": "艾拉_行动出发_9bbdc7df8e50add92c0988ac98c047a8.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "行动开始",
+          "expected_filename": "艾拉_行动开始_b8d0b59b83261e6730d63361c1ad6709.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "选中干员1",
+          "expected_filename": "艾拉_选中干员1_abbd76649fdf539c82073cadced75325.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "选中干员2",
+          "expected_filename": "艾拉_选中干员2_f8fd25605967d29590a1845c3106881d.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "部署1",
+          "expected_filename": "艾拉_部署1_667568ee5c874370b0ee65eb3e86bf66.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "部署2",
+          "expected_filename": "艾拉_部署2_012507b05405973a99ec8448281fb15a.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "作战中1",
+          "expected_filename": "艾拉_作战中1_971318194d11f90a3671d1efe7483691.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "作战中2",
+          "expected_filename": "艾拉_作战中2_fe0f08e459e1d28ef16e4aee6f4dc97f.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "作战中3",
+          "expected_filename": "艾拉_作战中3_79303e4b5f2048410abe46262da6d230.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "作战中4",
+          "expected_filename": "艾拉_作战中4_7368ec8328bb973e490c08f282b15cae.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "完成高难行动",
+          "expected_filename": "艾拉_完成高难行动_73aa8aaf430fafa52a5d498025d48d8b.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "3星结束行动",
+          "expected_filename": "艾拉_3星结束行动_bf2a27055174767424037839f613af7e.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "非3星结束行动",
+          "expected_filename": "艾拉_非3星结束行动_4bec11db6e831372e0270972820f3978.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "行动失败",
+          "expected_filename": "艾拉_行动失败_381da673f6cc3638c787558f4499f274.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "进驻设施",
+          "expected_filename": "艾拉_进驻设施_ca1097a8a5cb4fd784d7e02ef7c7af7e.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "戳一下",
+          "expected_filename": "艾拉_戳一下_1cec76c9664a9428e1ef19c584551810.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "信赖触摸",
+          "expected_filename": "艾拉_信赖触摸_fcbb6c0553489125bf1317568e8c587a.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "标题",
+          "expected_filename": "艾拉_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4123_ela",
+          "title": "问候",
+          "expected_filename": "艾拉_问候_91664f04960c6ceb9944c0f7fd82003e.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "埃拉托": {
+      "operator_name": "埃拉托",
+      "voice_data_file": "voc_data/voice_data_埃拉托.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "艾丽妮": {
+      "operator_name": "艾丽妮",
+      "voice_data_file": "voc_data/voice_data_艾丽妮.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "爱丽丝": {
+      "operator_name": "爱丽丝",
+      "voice_data_file": "voc_data/voice_data_爱丽丝.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "艾丝黛尔": {
+      "operator_name": "艾丝黛尔",
+      "voice_data_file": "voc_data/voice_data_艾丝黛尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "艾雅法拉": {
+      "operator_name": "艾雅法拉",
+      "voice_data_file": "voc_data/voice_data_艾雅法拉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "安比尔": {
+      "operator_name": "安比尔",
+      "voice_data_file": "voc_data/voice_data_安比尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "安德切尔": {
+      "operator_name": "安德切尔",
+      "voice_data_file": "voc_data/voice_data_安德切尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "安洁莉娜": {
+      "operator_name": "安洁莉娜",
+      "voice_data_file": "voc_data/voice_data_安洁莉娜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "安赛尔": {
+      "operator_name": "安赛尔",
+      "voice_data_file": "voc_data/voice_data_安赛尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "暗索": {
+      "operator_name": "暗索",
+      "voice_data_file": "voc_data/voice_data_暗索.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "安哲拉": {
+      "operator_name": "安哲拉",
+      "voice_data_file": "voc_data/voice_data_安哲拉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "奥达": {
+      "operator_name": "奥达",
+      "voice_data_file": "voc_data/voice_data_奥达.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "奥斯塔": {
+      "operator_name": "奥斯塔",
+      "voice_data_file": "voc_data/voice_data_奥斯塔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "柏喙": {
+      "operator_name": "柏喙",
+      "voice_data_file": "voc_data/voice_data_柏喙.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "白金": {
+      "operator_name": "白金",
+      "voice_data_file": "voc_data/voice_data_白金.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "百炼嘉维尔": {
+      "operator_name": "百炼嘉维尔",
+      "voice_data_file": "voc_data/voice_data_百炼嘉维尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "白面鸮": {
+      "operator_name": "白面鸮",
+      "voice_data_file": "voc_data/voice_data_白面鸮.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "拜松": {
+      "operator_name": "拜松",
+      "voice_data_file": "voc_data/voice_data_拜松.csv",
+      "voice_data_exists": true,
+      "voice_entries": 37,
+      "missing_audio_files": [],
+      "total_expected_audio": 37,
+      "total_actual_audio": 37
+    },
+    "白铁": {
+      "operator_name": "白铁",
+      "voice_data_file": "voc_data/voice_data_白铁.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "白雪": {
+      "operator_name": "白雪",
+      "voice_data_file": "voc_data/voice_data_白雪.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "斑点": {
+      "operator_name": "斑点",
+      "voice_data_file": "voc_data/voice_data_斑点.csv",
+      "voice_data_exists": true,
+      "voice_entries": 36,
+      "missing_audio_files": [],
+      "total_expected_audio": 36,
+      "total_actual_audio": 36
+    },
+    "薄绿": {
+      "operator_name": "薄绿",
+      "voice_data_file": "voc_data/voice_data_薄绿.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "暴行": {
+      "operator_name": "暴行",
+      "voice_data_file": "voc_data/voice_data_暴行.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "暴雨": {
+      "operator_name": "暴雨",
+      "voice_data_file": "voc_data/voice_data_暴雨.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "贝娜": {
+      "operator_name": "贝娜",
+      "voice_data_file": "voc_data/voice_data_贝娜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "鞭刃": {
+      "operator_name": "鞭刃",
+      "voice_data_file": "voc_data/voice_data_鞭刃.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "冰酿": {
+      "operator_name": "冰酿",
+      "voice_data_file": "voc_data/voice_data_冰酿.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "波卜": {
+      "operator_name": "波卜",
+      "voice_data_file": "voc_data/voice_data_波卜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "波登可": {
+      "operator_name": "波登可",
+      "voice_data_file": "voc_data/voice_data_波登可.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "布丁": {
+      "operator_name": "布丁",
+      "voice_data_file": "voc_data/voice_data_布丁.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "布洛卡": {
+      "operator_name": "布洛卡",
+      "voice_data_file": "voc_data/voice_data_布洛卡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "CONFESS-47": {
+      "operator_name": "CONFESS-47",
+      "voice_data_file": "voc_data/voice_data_CONFESS-47.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "裁度": {
+      "operator_name": "裁度",
+      "voice_data_file": "voc_data/voice_data_裁度.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "苍苔": {
+      "operator_name": "苍苔",
+      "voice_data_file": "voc_data/voice_data_苍苔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Castle-3": {
+      "operator_name": "Castle-3",
+      "voice_data_file": "voc_data/voice_data_Castle-3.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "缠丸": {
+      "operator_name": "缠丸",
+      "voice_data_file": "voc_data/voice_data_缠丸.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "车尔尼": {
+      "operator_name": "车尔尼",
+      "voice_data_file": "voc_data/voice_data_车尔尼.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "陈": {
+      "operator_name": "陈",
+      "voice_data_file": "voc_data/voice_data_陈.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "骋风": {
+      "operator_name": "骋风",
+      "voice_data_file": "voc_data/voice_data_骋风.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "澄闪": {
+      "operator_name": "澄闪",
+      "voice_data_file": "voc_data/voice_data_澄闪.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "承曦格雷伊": {
+      "operator_name": "承曦格雷伊",
+      "voice_data_file": "voc_data/voice_data_承曦格雷伊.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "赤冬": {
+      "operator_name": "赤冬",
+      "voice_data_file": "voc_data/voice_data_赤冬.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "斥罪": {
+      "operator_name": "斥罪",
+      "voice_data_file": "voc_data/voice_data_斥罪.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "仇白": {
+      "operator_name": "仇白",
+      "voice_data_file": "voc_data/voice_data_仇白.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "初雪": {
+      "operator_name": "初雪",
+      "voice_data_file": "voc_data/voice_data_初雪.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "纯烬艾雅法拉": {
+      "operator_name": "纯烬艾雅法拉",
+      "voice_data_file": "voc_data/voice_data_纯烬艾雅法拉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "刺玫": {
+      "operator_name": "刺玫",
+      "voice_data_file": "voc_data/voice_data_刺玫.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "伺夜": {
+      "operator_name": "伺夜",
+      "voice_data_file": "voc_data/voice_data_伺夜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "淬羽赫默": {
+      "operator_name": "淬羽赫默",
+      "voice_data_file": "voc_data/voice_data_淬羽赫默.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "嵯峨": {
+      "operator_name": "嵯峨",
+      "voice_data_file": "voc_data/voice_data_嵯峨.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "达格达": {
+      "operator_name": "达格达",
+      "voice_data_file": "voc_data/voice_data_达格达.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "戴菲恩": {
+      "operator_name": "戴菲恩",
+      "voice_data_file": "voc_data/voice_data_戴菲恩.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "但书": {
+      "operator_name": "但书",
+      "voice_data_file": "voc_data/voice_data_但书.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "导火索": {
+      "operator_name": "导火索",
+      "voice_data_file": "voc_data/voice_data_导火索.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "任命助理",
+          "expected_filename": "导火索_任命助理_01d4be2d8b2a1ceba69a53af099d69c4.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "交谈1",
+          "expected_filename": "导火索_交谈1_cf4f19fa10cafc24ad6c8bd6cdee7e89.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "交谈2",
+          "expected_filename": "导火索_交谈2_3148551cdab6f64d048e2a3fb4515bb2.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "交谈3",
+          "expected_filename": "导火索_交谈3_6aaa7a034f31c84771297cac282fcfad.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "晋升后交谈1",
+          "expected_filename": "导火索_晋升后交谈1_c3899fb61ab518c0cb53c8331d63f792.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "晋升后交谈2",
+          "expected_filename": "导火索_晋升后交谈2_770164c1e2d8ed0defc4f0220391d106.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "导火索_信赖提升后交谈1_93d94950eb92b634f9941c57052afd86.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "导火索_信赖提升后交谈2_8ecba606f2dcde34ffae3ce7c69ac201.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "导火索_信赖提升后交谈3_96c7a11f31007227af826ea60a6de078.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "闲置",
+          "expected_filename": "导火索_闲置_785311394373e68e05258783b12b6c7d.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "干员报到",
+          "expected_filename": "导火索_干员报到_f1418555bf3bc3bc313f0c8aa7488862.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "观看作战记录",
+          "expected_filename": "导火索_观看作战记录_f693bb1121b1ce46e2b2694ba5376494.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "精英化晋升1",
+          "expected_filename": "导火索_精英化晋升1_2ddd0d3c38ed4f74ef63f92e24c4d7ee.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "精英化晋升2",
+          "expected_filename": "导火索_精英化晋升2_785e37ef5b1c27b7484337bb9ad70cf6.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "编入队伍",
+          "expected_filename": "导火索_编入队伍_ac935cb80badc54f694f3a9dabd621b9.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "任命队长",
+          "expected_filename": "导火索_任命队长_218ec110e30e1efc91998688ec6385cd.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "行动出发",
+          "expected_filename": "导火索_行动出发_3a2e7b22488dfc3e540998d580ccaaba.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "行动开始",
+          "expected_filename": "导火索_行动开始_77f2148319ccf2a090589d7306886ff6.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "选中干员1",
+          "expected_filename": "导火索_选中干员1_5eabb99cdc2d7a6aaaa2103e1a51795e.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "选中干员2",
+          "expected_filename": "导火索_选中干员2_d72e82a9ca9c35b226fc7aca29c16166.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "部署1",
+          "expected_filename": "导火索_部署1_fcb67e5746380d1f3cdfce00b9039d5c.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "部署2",
+          "expected_filename": "导火索_部署2_c6002b4284aa0b5f5db6e16976efe513.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "作战中1",
+          "expected_filename": "导火索_作战中1_be9428bd96034871dd005997887e2521.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "作战中2",
+          "expected_filename": "导火索_作战中2_24c7223e65cdf69ce4f56950686fa027.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "作战中3",
+          "expected_filename": "导火索_作战中3_a351b009a72184e23f264db2a079fbfe.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "作战中4",
+          "expected_filename": "导火索_作战中4_c1dbb4edf9791514a6ebf1209d72e74f.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "完成高难行动",
+          "expected_filename": "导火索_完成高难行动_196c54b8780d1d6b69424270174398f9.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "3星结束行动",
+          "expected_filename": "导火索_3星结束行动_82bfe746f791c8dbb592bc945067bb9d.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "非3星结束行动",
+          "expected_filename": "导火索_非3星结束行动_2d6ab165673783a07ff520e2a493b8c7.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "行动失败",
+          "expected_filename": "导火索_行动失败_ecbb1eb37b508494d768f45b7a96c1a4.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "进驻设施",
+          "expected_filename": "导火索_进驻设施_e4f2ca8af3c2c1fc594e633fb5daf521.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "戳一下",
+          "expected_filename": "导火索_戳一下_18ccd258fbf91de1ce9bd5bc2c364d85.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "信赖触摸",
+          "expected_filename": "导火索_信赖触摸_a9fd5f9cc7d3d5e1cfac181a88a984ac.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "标题",
+          "expected_filename": "导火索_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4126_fuze",
+          "title": "问候",
+          "expected_filename": "导火索_问候_d556ac14a56de787fafa7f65b4a84cd1.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "德克萨斯": {
+      "operator_name": "德克萨斯",
+      "voice_data_file": "voc_data/voice_data_德克萨斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "地灵": {
+      "operator_name": "地灵",
+      "voice_data_file": "voc_data/voice_data_地灵.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "蒂比": {
+      "operator_name": "蒂比",
+      "voice_data_file": "voc_data/voice_data_蒂比.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "涤火杰西卡": {
+      "operator_name": "涤火杰西卡",
+      "voice_data_file": "voc_data/voice_data_涤火杰西卡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "电弧": {
+      "operator_name": "电弧",
+      "voice_data_file": "voc_data/voice_data_电弧.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "调香师": {
+      "operator_name": "调香师",
+      "voice_data_file": "voc_data/voice_data_调香师.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "豆苗": {
+      "operator_name": "豆苗",
+      "voice_data_file": "voc_data/voice_data_豆苗.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "杜宾": {
+      "operator_name": "杜宾",
+      "voice_data_file": "voc_data/voice_data_杜宾.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "杜林": {
+      "operator_name": "杜林",
+      "voice_data_file": "voc_data/voice_data_杜林.csv",
+      "voice_data_exists": true,
+      "voice_entries": 32,
+      "missing_audio_files": [],
+      "total_expected_audio": 32,
+      "total_actual_audio": 32
+    },
+    "渡桥": {
+      "operator_name": "渡桥",
+      "voice_data_file": "voc_data/voice_data_渡桥.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "断崖": {
+      "operator_name": "断崖",
+      "voice_data_file": "voc_data/voice_data_断崖.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "断罪者": {
+      "operator_name": "断罪者",
+      "voice_data_file": "voc_data/voice_data_断罪者.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "铎铃": {
+      "operator_name": "铎铃",
+      "voice_data_file": "voc_data/voice_data_铎铃.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "多萝西": {
+      "operator_name": "多萝西",
+      "voice_data_file": "voc_data/voice_data_多萝西.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "芳汀": {
+      "operator_name": "芳汀",
+      "voice_data_file": "voc_data/voice_data_芳汀.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "菲莱": {
+      "operator_name": "菲莱",
+      "voice_data_file": "voc_data/voice_data_菲莱.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "菲亚梅塔": {
+      "operator_name": "菲亚梅塔",
+      "voice_data_file": "voc_data/voice_data_菲亚梅塔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "芬": {
+      "operator_name": "芬",
+      "voice_data_file": "voc_data/voice_data_芬.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "风笛": {
+      "operator_name": "风笛",
+      "voice_data_file": "voc_data/voice_data_风笛.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "风丸": {
+      "operator_name": "风丸",
+      "voice_data_file": "voc_data/voice_data_风丸.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Friston-3": {
+      "operator_name": "Friston-3",
+      "voice_data_file": "voc_data/voice_data_Friston-3.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "芙兰卡": {
+      "operator_name": "芙兰卡",
+      "voice_data_file": "voc_data/voice_data_芙兰卡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "芙蓉": {
+      "operator_name": "芙蓉",
+      "voice_data_file": "voc_data/voice_data_芙蓉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "格拉尼": {
+      "operator_name": "格拉尼",
+      "voice_data_file": "voc_data/voice_data_格拉尼.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "格劳克斯": {
+      "operator_name": "格劳克斯",
+      "voice_data_file": "voc_data/voice_data_格劳克斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "歌蕾蒂娅": {
+      "operator_name": "歌蕾蒂娅",
+      "voice_data_file": "voc_data/voice_data_歌蕾蒂娅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "格雷伊": {
+      "operator_name": "格雷伊",
+      "voice_data_file": "voc_data/voice_data_格雷伊.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "古米": {
+      "operator_name": "古米",
+      "voice_data_file": "voc_data/voice_data_古米.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "归溟幽灵鲨": {
+      "operator_name": "归溟幽灵鲨",
+      "voice_data_file": "voc_data/voice_data_归溟幽灵鲨.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "瑰盐": {
+      "operator_name": "瑰盐",
+      "voice_data_file": "voc_data/voice_data_瑰盐.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "傀影": {
+      "operator_name": "傀影",
+      "voice_data_file": "voc_data/voice_data_傀影.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "哈洛德": {
+      "operator_name": "哈洛德",
+      "voice_data_file": "voc_data/voice_data_哈洛德.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "海蒂": {
+      "operator_name": "海蒂",
+      "voice_data_file": "voc_data/voice_data_海蒂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "海沫": {
+      "operator_name": "海沫",
+      "voice_data_file": "voc_data/voice_data_海沫.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "海霓": {
+      "operator_name": "海霓",
+      "voice_data_file": "voc_data/voice_data_海霓.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "寒芒克洛丝": {
+      "operator_name": "寒芒克洛丝",
+      "voice_data_file": "voc_data/voice_data_寒芒克洛丝.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "寒檀": {
+      "operator_name": "寒檀",
+      "voice_data_file": "voc_data/voice_data_寒檀.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "号角": {
+      "operator_name": "号角",
+      "voice_data_file": "voc_data/voice_data_号角.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "赫德雷": {
+      "operator_name": "赫德雷",
+      "voice_data_file": "voc_data/voice_data_赫德雷.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "褐果": {
+      "operator_name": "褐果",
+      "voice_data_file": "voc_data/voice_data_褐果.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "赫拉格": {
+      "operator_name": "赫拉格",
+      "voice_data_file": "voc_data/voice_data_赫拉格.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "赫默": {
+      "operator_name": "赫默",
+      "voice_data_file": "voc_data/voice_data_赫默.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "和弦": {
+      "operator_name": "和弦",
+      "voice_data_file": "voc_data/voice_data_和弦.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "黑": {
+      "operator_name": "黑",
+      "voice_data_file": "voc_data/voice_data_黑.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "黑键": {
+      "operator_name": "黑键",
+      "voice_data_file": "voc_data/voice_data_黑键.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "黑角": {
+      "operator_name": "黑角",
+      "voice_data_file": "voc_data/voice_data_黑角.csv",
+      "voice_data_exists": true,
+      "voice_entries": 32,
+      "missing_audio_files": [],
+      "total_expected_audio": 32,
+      "total_actual_audio": 32
+    },
+    "衡沙": {
+      "operator_name": "衡沙",
+      "voice_data_file": "voc_data/voice_data_衡沙.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "吽": {
+      "operator_name": "吽",
+      "voice_data_file": "voc_data/voice_data_吽.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "红": {
+      "operator_name": "红",
+      "voice_data_file": "voc_data/voice_data_红.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "红豆": {
+      "operator_name": "红豆",
+      "voice_data_file": "voc_data/voice_data_红豆.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "红隼": {
+      "operator_name": "红隼",
+      "voice_data_file": "voc_data/voice_data_红隼.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "鸿雪": {
+      "operator_name": "鸿雪",
+      "voice_data_file": "voc_data/voice_data_鸿雪.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "红云": {
+      "operator_name": "红云",
+      "voice_data_file": "voc_data/voice_data_红云.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "华法琳": {
+      "operator_name": "华法琳",
+      "voice_data_file": "voc_data/voice_data_华法琳.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "槐琥": {
+      "operator_name": "槐琥",
+      "voice_data_file": "voc_data/voice_data_槐琥.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "煌": {
+      "operator_name": "煌",
+      "voice_data_file": "voc_data/voice_data_煌.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "荒芜拉普兰德": {
+      "operator_name": "荒芜拉普兰德",
+      "voice_data_file": "voc_data/voice_data_荒芜拉普兰德.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "灰毫": {
+      "operator_name": "灰毫",
+      "voice_data_file": "voc_data/voice_data_灰毫.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "灰喉": {
+      "operator_name": "灰喉",
+      "voice_data_file": "voc_data/voice_data_灰喉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "灰烬": {
+      "operator_name": "灰烬",
+      "voice_data_file": "voc_data/voice_data_灰烬.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_456_ash",
+          "title": "任命助理",
+          "expected_filename": "灰烬_任命助理_fe769da762b2369716d427ababf25847.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "交谈1",
+          "expected_filename": "灰烬_交谈1_5c835157648d951af2f1f0c0a2e157b7.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "交谈2",
+          "expected_filename": "灰烬_交谈2_a6d33686e90ee290173e32aeb48f487e.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "交谈3",
+          "expected_filename": "灰烬_交谈3_270aa00a7c9a265b6a305ce5c0cce52f.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "晋升后交谈1",
+          "expected_filename": "灰烬_晋升后交谈1_6652b1e84b6fc6557a532357b3780018.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "晋升后交谈2",
+          "expected_filename": "灰烬_晋升后交谈2_c5269e1a1af92efbe417beebac0e5c74.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "灰烬_信赖提升后交谈1_1763c3c06d27727e156b3c9e5c13a8c6.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "灰烬_信赖提升后交谈2_488679127522f8ffe117298a741958b2.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "灰烬_信赖提升后交谈3_77ece925b01578897e7d318ed84e4e92.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "闲置",
+          "expected_filename": "灰烬_闲置_7a938afde84d133eebf5281878e5cd1e.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "干员报到",
+          "expected_filename": "灰烬_干员报到_d9f903d8bfebdd525aed6c0865915d6e.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "观看作战记录",
+          "expected_filename": "灰烬_观看作战记录_0b6d21b884b2e9935bad5a9775c39e4d.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "精英化晋升1",
+          "expected_filename": "灰烬_精英化晋升1_1c6530affe949e38fb5bafb146505d18.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "精英化晋升2",
+          "expected_filename": "灰烬_精英化晋升2_996db077040d524bcd4f3996ad4e0487.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "编入队伍",
+          "expected_filename": "灰烬_编入队伍_c181ae1da3f5cca221dac0d52b36e713.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "任命队长",
+          "expected_filename": "灰烬_任命队长_2c6490a9fe406f8423950d759c177368.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "行动出发",
+          "expected_filename": "灰烬_行动出发_87eb09c4df129e3b287df64110490a0d.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "行动开始",
+          "expected_filename": "灰烬_行动开始_5cdf2b92245d3354d4b6808ace0b8126.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "选中干员1",
+          "expected_filename": "灰烬_选中干员1_2f7c53e56c58fbb52f27d973651f6768.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "选中干员2",
+          "expected_filename": "灰烬_选中干员2_fb36ddbf4dafa2723c49762c98291da5.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "部署1",
+          "expected_filename": "灰烬_部署1_f4afbbed3948bd2ece793a5985b3df98.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "部署2",
+          "expected_filename": "灰烬_部署2_2ee5e1d3a07b8f2884401ff98dc21d83.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "作战中1",
+          "expected_filename": "灰烬_作战中1_ced81c7abb51ab7e56d5ea23c05bea4c.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "作战中2",
+          "expected_filename": "灰烬_作战中2_2214aa615e3aa6f9fe226960682ba310.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "作战中3",
+          "expected_filename": "灰烬_作战中3_d7f4c66a9f85faf4be0f1d0c3122a936.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "作战中4",
+          "expected_filename": "灰烬_作战中4_6bdae301ae581d0b852809ef48e924e8.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "完成高难行动",
+          "expected_filename": "灰烬_完成高难行动_4db1fcf7f0fd2236f3cfffd019d42c79.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "3星结束行动",
+          "expected_filename": "灰烬_3星结束行动_81d3b4e93db68e3560da541f1616f849.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "非3星结束行动",
+          "expected_filename": "灰烬_非3星结束行动_baa936db416f2595a3f64b4c1fb5a4de.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "行动失败",
+          "expected_filename": "灰烬_行动失败_04e78cd50d35c0df2b1841504957f27b.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "进驻设施",
+          "expected_filename": "灰烬_进驻设施_ec28a31751ab3ad4b56945470de5c50a.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "戳一下",
+          "expected_filename": "灰烬_戳一下_476cafd772cb1e51f80a202d215c1af5.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "信赖触摸",
+          "expected_filename": "灰烬_信赖触摸_375fe30c56e3088992ee59774a970ba7.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "标题",
+          "expected_filename": "灰烬_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_456_ash",
+          "title": "问候",
+          "expected_filename": "灰烬_问候_dd0bc757d2b145483ffada7c30986163.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "霍尔海雅": {
+      "operator_name": "霍尔海雅",
+      "voice_data_file": "voc_data/voice_data_霍尔海雅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "火龙S黑角": {
+      "operator_name": "火龙S黑角",
+      "voice_data_file": "voc_data/voice_data_火龙S黑角.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "火哨": {
+      "operator_name": "火哨",
+      "voice_data_file": "voc_data/voice_data_火哨.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "火神": {
+      "operator_name": "火神",
+      "voice_data_file": "voc_data/voice_data_火神.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "棘刺": {
+      "operator_name": "棘刺",
+      "voice_data_file": "voc_data/voice_data_棘刺.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "极光": {
+      "operator_name": "极光",
+      "voice_data_file": "voc_data/voice_data_极光.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "极境": {
+      "operator_name": "极境",
+      "voice_data_file": "voc_data/voice_data_极境.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "吉星": {
+      "operator_name": "吉星",
+      "voice_data_file": "voc_data/voice_data_吉星.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "假日威龙陈": {
+      "operator_name": "假日威龙陈",
+      "voice_data_file": "voc_data/voice_data_假日威龙陈.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "贾维": {
+      "operator_name": "贾维",
+      "voice_data_file": "voc_data/voice_data_贾维.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "嘉维尔": {
+      "operator_name": "嘉维尔",
+      "voice_data_file": "voc_data/voice_data_嘉维尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "锏": {
+      "operator_name": "锏",
+      "voice_data_file": "voc_data/voice_data_锏.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "坚雷": {
+      "operator_name": "坚雷",
+      "voice_data_file": "voc_data/voice_data_坚雷.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "缄默德克萨斯": {
+      "operator_name": "缄默德克萨斯",
+      "voice_data_file": "voc_data/voice_data_缄默德克萨斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "见行者": {
+      "operator_name": "见行者",
+      "voice_data_file": "voc_data/voice_data_见行者.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "角峰": {
+      "operator_name": "角峰",
+      "voice_data_file": "voc_data/voice_data_角峰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "孑": {
+      "operator_name": "孑",
+      "voice_data_file": "voc_data/voice_data_孑.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "杰克": {
+      "operator_name": "杰克",
+      "voice_data_file": "voc_data/voice_data_杰克.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "杰西卡": {
+      "operator_name": "杰西卡",
+      "voice_data_file": "voc_data/voice_data_杰西卡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "截云": {
+      "operator_name": "截云",
+      "voice_data_file": "voc_data/voice_data_截云.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "惊蛰": {
+      "operator_name": "惊蛰",
+      "voice_data_file": "voc_data/voice_data_惊蛰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "九色鹿": {
+      "operator_name": "九色鹿",
+      "voice_data_file": "voc_data/voice_data_九色鹿.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "酒神": {
+      "operator_name": "酒神",
+      "voice_data_file": "voc_data/voice_data_酒神.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "卡达": {
+      "operator_name": "卡达",
+      "voice_data_file": "voc_data/voice_data_卡达.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "卡夫卡": {
+      "operator_name": "卡夫卡",
+      "voice_data_file": "voc_data/voice_data_卡夫卡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "卡涅利安": {
+      "operator_name": "卡涅利安",
+      "voice_data_file": "voc_data/voice_data_卡涅利安.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "卡缇": {
+      "operator_name": "卡缇",
+      "voice_data_file": "voc_data/voice_data_卡缇.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "凯尔希": {
+      "operator_name": "凯尔希",
+      "voice_data_file": "voc_data/voice_data_凯尔希.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "凯瑟琳": {
+      "operator_name": "凯瑟琳",
+      "voice_data_file": "voc_data/voice_data_凯瑟琳.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "刻刀": {
+      "operator_name": "刻刀",
+      "voice_data_file": "voc_data/voice_data_刻刀.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "刻俄柏": {
+      "operator_name": "刻俄柏",
+      "voice_data_file": "voc_data/voice_data_刻俄柏.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "克洛丝": {
+      "operator_name": "克洛丝",
+      "voice_data_file": "voc_data/voice_data_克洛丝.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [],
+      "total_expected_audio": 35,
+      "total_actual_audio": 35
+    },
+    "可颂": {
+      "operator_name": "可颂",
+      "voice_data_file": "voc_data/voice_data_可颂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "空": {
+      "operator_name": "空",
+      "voice_data_file": "voc_data/voice_data_空.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "空爆": {
+      "operator_name": "空爆",
+      "voice_data_file": "voc_data/voice_data_空爆.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "空构": {
+      "operator_name": "空构",
+      "voice_data_file": "voc_data/voice_data_空构.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "空弦": {
+      "operator_name": "空弦",
+      "voice_data_file": "voc_data/voice_data_空弦.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "苦艾": {
+      "operator_name": "苦艾",
+      "voice_data_file": "voc_data/voice_data_苦艾.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "拉普兰德": {
+      "operator_name": "拉普兰德",
+      "voice_data_file": "voc_data/voice_data_拉普兰德.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "莱恩哈特": {
+      "operator_name": "莱恩哈特",
+      "voice_data_file": "voc_data/voice_data_莱恩哈特.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "莱欧斯": {
+      "operator_name": "莱欧斯",
+      "voice_data_file": "voc_data/voice_data_莱欧斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4142_laios",
+          "title": "任命助理",
+          "expected_filename": "莱欧斯_任命助理_ac1e57b3d0beaa9c0d4c8032720f1093.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "交谈1",
+          "expected_filename": "莱欧斯_交谈1_d11f70f260689c5caf685cb3fef3010f.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "交谈2",
+          "expected_filename": "莱欧斯_交谈2_56a2144bc9e2d791a2c22495b876ee25.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "交谈3",
+          "expected_filename": "莱欧斯_交谈3_d03f48a49701084365040087a1cdb72b.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "晋升后交谈1",
+          "expected_filename": "莱欧斯_晋升后交谈1_64d14dc94627da032d048a560dfd97db.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "晋升后交谈2",
+          "expected_filename": "莱欧斯_晋升后交谈2_75acae4b2258f08aa189de388393780f.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "莱欧斯_信赖提升后交谈1_c1116b26556a012bf817c921a8927c17.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "莱欧斯_信赖提升后交谈2_f5662117fcaa0d44bd623be9ff2f5888.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "莱欧斯_信赖提升后交谈3_5ad4966d76a2e7ace8f78aed66f4fd7b.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "闲置",
+          "expected_filename": "莱欧斯_闲置_6d5a59591f899fe70626da31e848655d.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "干员报到",
+          "expected_filename": "莱欧斯_干员报到_7d27ed7df01fbaa490a3cf159ca6504a.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "观看作战记录",
+          "expected_filename": "莱欧斯_观看作战记录_0df973ff4fcaf4969e7a98099c29f408.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "精英化晋升1",
+          "expected_filename": "莱欧斯_精英化晋升1_0d28305ef8c7112b5285be12c29644b1.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "精英化晋升2",
+          "expected_filename": "莱欧斯_精英化晋升2_a4080fe60410db62fdf54c8379d36e71.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "编入队伍",
+          "expected_filename": "莱欧斯_编入队伍_fe65d138e943dc5795f67159fa00928e.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "任命队长",
+          "expected_filename": "莱欧斯_任命队长_967cad02361d1c10b3e58fca2b8fd800.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "行动出发",
+          "expected_filename": "莱欧斯_行动出发_c82d808a52eec6fa05622fe901a146dc.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "行动开始",
+          "expected_filename": "莱欧斯_行动开始_ece9cc50e5223a5fa7b4cc2f0d16842e.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "选中干员1",
+          "expected_filename": "莱欧斯_选中干员1_83eb61ac0c851c6545debe400b839caa.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "选中干员2",
+          "expected_filename": "莱欧斯_选中干员2_d5485f205486296349139f6a5d5c2afb.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "部署1",
+          "expected_filename": "莱欧斯_部署1_b1532557f0d455a82776989d01b0e836.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "部署2",
+          "expected_filename": "莱欧斯_部署2_dbd4a411d68555c9790c38a35c60c63f.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "作战中",
+          "expected_filename": "莱欧斯_作战中_b1609600ebd8f44fb5ebf61b7ed4d749.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "完成高难行动",
+          "expected_filename": "莱欧斯_完成高难行动_0b3e7bb92869c1a9f9c66ca990455e1e.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "3星结束行动",
+          "expected_filename": "莱欧斯_3星结束行动_11fde7c55a5070773f137ef993dd009e.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "非3星结束行动",
+          "expected_filename": "莱欧斯_非3星结束行动_cba6e24149a2ee3c3d47e98972ee4c22.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "行动失败",
+          "expected_filename": "莱欧斯_行动失败_555c3fe1ec41a297d7c3e7ceeb34271a.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "进驻设施",
+          "expected_filename": "莱欧斯_进驻设施_dd39f446a8107647c06677b684bb290f.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "戳一下",
+          "expected_filename": "莱欧斯_戳一下_433ce800be8f49a98ef187567541dc5d.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "信赖触摸",
+          "expected_filename": "莱欧斯_信赖触摸_582a45825e9212bd79f81d154e1046df.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "标题",
+          "expected_filename": "莱欧斯_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "新年祝福",
+          "expected_filename": "莱欧斯_新年祝福_92c5f2729b35618721a5d852c90f8830.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "问候",
+          "expected_filename": "莱欧斯_问候_6c4c63869e5d7198a705aa97f39a0699.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "生日",
+          "expected_filename": "莱欧斯_生日_dfaeecdaacbece24ace1fe123e5308d8.wav"
+        },
+        {
+          "voice_key": "char_4142_laios",
+          "title": "周年庆典",
+          "expected_filename": "莱欧斯_周年庆典_7fff8dd98e0e3b80e3b6d7800a8aed50.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "莱伊": {
+      "operator_name": "莱伊",
+      "voice_data_file": "voc_data/voice_data_莱伊.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "蓝毒": {
+      "operator_name": "蓝毒",
+      "voice_data_file": "voc_data/voice_data_蓝毒.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Lancet-2": {
+      "operator_name": "Lancet-2",
+      "voice_data_file": "voc_data/voice_data_Lancet-2.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "老鲤": {
+      "operator_name": "老鲤",
+      "voice_data_file": "voc_data/voice_data_老鲤.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "蕾缪安": {
+      "operator_name": "蕾缪安",
+      "voice_data_file": "voc_data/voice_data_蕾缪安.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "雷蛇": {
+      "operator_name": "雷蛇",
+      "voice_data_file": "voc_data/voice_data_雷蛇.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "砾": {
+      "operator_name": "砾",
+      "voice_data_file": "voc_data/voice_data_砾.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "历阵锐枪芬": {
+      "operator_name": "历阵锐枪芬",
+      "voice_data_file": "voc_data/voice_data_历阵锐枪芬.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "猎蜂": {
+      "operator_name": "猎蜂",
+      "voice_data_file": "voc_data/voice_data_猎蜂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "烈夏": {
+      "operator_name": "烈夏",
+      "voice_data_file": "voc_data/voice_data_烈夏.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "林": {
+      "operator_name": "林",
+      "voice_data_file": "voc_data/voice_data_林.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "凛冬": {
+      "operator_name": "凛冬",
+      "voice_data_file": "voc_data/voice_data_凛冬.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "临光": {
+      "operator_name": "临光",
+      "voice_data_file": "voc_data/voice_data_临光.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "琳琅诗怀雅": {
+      "operator_name": "琳琅诗怀雅",
+      "voice_data_file": "voc_data/voice_data_琳琅诗怀雅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "凛视": {
+      "operator_name": "凛视",
+      "voice_data_file": "voc_data/voice_data_凛视.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "令": {
+      "operator_name": "令",
+      "voice_data_file": "voc_data/voice_data_令.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "铃兰": {
+      "operator_name": "铃兰",
+      "voice_data_file": "voc_data/voice_data_铃兰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "聆音": {
+      "operator_name": "聆音",
+      "voice_data_file": "voc_data/voice_data_聆音.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "翎羽": {
+      "operator_name": "翎羽",
+      "voice_data_file": "voc_data/voice_data_翎羽.csv",
+      "voice_data_exists": true,
+      "voice_entries": 36,
+      "missing_audio_files": [],
+      "total_expected_audio": 36,
+      "total_actual_audio": 36
+    },
+    "灵知": {
+      "operator_name": "灵知",
+      "voice_data_file": "voc_data/voice_data_灵知.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "流明": {
+      "operator_name": "流明",
+      "voice_data_file": "voc_data/voice_data_流明.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "流星": {
+      "operator_name": "流星",
+      "voice_data_file": "voc_data/voice_data_流星.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "龙舌兰": {
+      "operator_name": "龙舌兰",
+      "voice_data_file": "voc_data/voice_data_龙舌兰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "露托": {
+      "operator_name": "露托",
+      "voice_data_file": "voc_data/voice_data_露托.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "录武官": {
+      "operator_name": "录武官",
+      "voice_data_file": "voc_data/voice_data_录武官.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "罗比菈塔": {
+      "operator_name": "罗比菈塔",
+      "voice_data_file": "voc_data/voice_data_罗比菈塔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "罗宾": {
+      "operator_name": "罗宾",
+      "voice_data_file": "voc_data/voice_data_罗宾.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "逻各斯": {
+      "operator_name": "逻各斯",
+      "voice_data_file": "voc_data/voice_data_逻各斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "洛洛": {
+      "operator_name": "洛洛",
+      "voice_data_file": "voc_data/voice_data_洛洛.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "罗小黑": {
+      "operator_name": "罗小黑",
+      "voice_data_file": "voc_data/voice_data_罗小黑.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "掠风": {
+      "operator_name": "掠风",
+      "voice_data_file": "voc_data/voice_data_掠风.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "玛恩纳": {
+      "operator_name": "玛恩纳",
+      "voice_data_file": "voc_data/voice_data_玛恩纳.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "玛露西尔": {
+      "operator_name": "玛露西尔",
+      "voice_data_file": "voc_data/voice_data_玛露西尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "任命助理",
+          "expected_filename": "玛露西尔_任命助理_28ae7a0821b371b791887b3a9a515937.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "交谈1",
+          "expected_filename": "玛露西尔_交谈1_ab9f18402a258b892a2c0feba5df5b5c.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "交谈2",
+          "expected_filename": "玛露西尔_交谈2_ac3519ffd1a9af22cb46f2bf6b7666e9.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "交谈3",
+          "expected_filename": "玛露西尔_交谈3_8599c1fa391406289db06e413e0e16e3.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "晋升后交谈1",
+          "expected_filename": "玛露西尔_晋升后交谈1_ae8797a5515cf92b7ed5e15832ea307b.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "晋升后交谈2",
+          "expected_filename": "玛露西尔_晋升后交谈2_34ab2f76675f9d719f5faacb6bd28af4.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "玛露西尔_信赖提升后交谈1_fe01ade39502fa4670e81afaa7cf0c4a.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "玛露西尔_信赖提升后交谈2_7b9c071e4b85be4c6f99a5429ee3dea1.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "玛露西尔_信赖提升后交谈3_a02761861bc56d5432b856dc33e7b651.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "闲置",
+          "expected_filename": "玛露西尔_闲置_66b6046f834e2261d13e235c938dbffa.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "干员报到",
+          "expected_filename": "玛露西尔_干员报到_677a362ba002cb83339e81ba0ea3708d.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "观看作战记录",
+          "expected_filename": "玛露西尔_观看作战记录_608ba4adc3bd5333c7112fcbf07f9c3e.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "精英化晋升1",
+          "expected_filename": "玛露西尔_精英化晋升1_1dae66464fd7d1d6c78becf1246c4eee.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "精英化晋升2",
+          "expected_filename": "玛露西尔_精英化晋升2_66d480bb74618a42e871688040b7f108.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "编入队伍",
+          "expected_filename": "玛露西尔_编入队伍_61db214081846b021bba2fecead17baf.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "任命队长",
+          "expected_filename": "玛露西尔_任命队长_35d39aedc01f1c11f3962b56c870bcc6.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "行动出发",
+          "expected_filename": "玛露西尔_行动出发_516b67b21aaabbfc247f48408759aa24.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "行动开始",
+          "expected_filename": "玛露西尔_行动开始_2ff32c78615bfd23a3e4ded7f0f30eaa.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "选中干员1",
+          "expected_filename": "玛露西尔_选中干员1_456356c9d630627d7b342fb6728874ad.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "选中干员2",
+          "expected_filename": "玛露西尔_选中干员2_19d63f6061bbc6676024d1af34db7d10.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "部署1",
+          "expected_filename": "玛露西尔_部署1_08a0f499d0ab9002dd2d19ff2e93751b.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "部署2",
+          "expected_filename": "玛露西尔_部署2_e28ccb61de1e12007a07776fb0bc2d4d.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "作战中1",
+          "expected_filename": "玛露西尔_作战中1_a1d661c999e222ba2fa32ae57ae6d0cf.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "作战中2",
+          "expected_filename": "玛露西尔_作战中2_4e403e36934aee337764facf556c5bda.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "作战中3",
+          "expected_filename": "玛露西尔_作战中3_b694cf96413bd24750023c7b0c0d4f9f.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "作战中4",
+          "expected_filename": "玛露西尔_作战中4_ea5be24b4b2f1714292d7bb03cf5ab08.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "完成高难行动",
+          "expected_filename": "玛露西尔_完成高难行动_41239ecf5d6f45afa2ce1f9ac3a62219.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "3星结束行动",
+          "expected_filename": "玛露西尔_3星结束行动_8c83b4f44fd331cb6925f232493dd9be.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "非3星结束行动",
+          "expected_filename": "玛露西尔_非3星结束行动_f713d2c2dfee36d67d87090fb60b463d.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "行动失败",
+          "expected_filename": "玛露西尔_行动失败_783356478e5d7839e563a7d806bdbb84.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "进驻设施",
+          "expected_filename": "玛露西尔_进驻设施_58b817931f6d64a7d23ad3f5bbbb17d9.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "戳一下",
+          "expected_filename": "玛露西尔_戳一下_afb90d59bf89b83b4b198bbe75390311.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "信赖触摸",
+          "expected_filename": "玛露西尔_信赖触摸_1fd66497bf2a6c36cf5388eb4babe72c.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "标题",
+          "expected_filename": "玛露西尔_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "新年祝福",
+          "expected_filename": "玛露西尔_新年祝福_54a00ffbbdc227cc89f6de3325d964eb.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "问候",
+          "expected_filename": "玛露西尔_问候_26eee2578702436e4f63b3e213fa47db.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "生日",
+          "expected_filename": "玛露西尔_生日_1546f913c43f6078e912a198b38320c3.wav"
+        },
+        {
+          "voice_key": "char_4141_marcil",
+          "title": "周年庆典",
+          "expected_filename": "玛露西尔_周年庆典_97737b1353093a3837d3e533da2ba6cb.wav"
+        }
+      ],
+      "total_expected_audio": 38,
+      "total_actual_audio": 0
+    },
+    "麦哲伦": {
+      "operator_name": "麦哲伦",
+      "voice_data_file": "voc_data/voice_data_麦哲伦.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "梅": {
+      "operator_name": "梅",
+      "voice_data_file": "voc_data/voice_data_梅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "梅尔": {
+      "operator_name": "梅尔",
+      "voice_data_file": "voc_data/voice_data_梅尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "玫拉": {
+      "operator_name": "玫拉",
+      "voice_data_file": "voc_data/voice_data_玫拉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "玫兰莎": {
+      "operator_name": "玫兰莎",
+      "voice_data_file": "voc_data/voice_data_玫兰莎.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "迷迭香": {
+      "operator_name": "迷迭香",
+      "voice_data_file": "voc_data/voice_data_迷迭香.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "米格鲁": {
+      "operator_name": "米格鲁",
+      "voice_data_file": "voc_data/voice_data_米格鲁.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "蜜蜡": {
+      "operator_name": "蜜蜡",
+      "voice_data_file": "voc_data/voice_data_蜜蜡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "蜜莓": {
+      "operator_name": "蜜莓",
+      "voice_data_file": "voc_data/voice_data_蜜莓.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "谜图": {
+      "operator_name": "谜图",
+      "voice_data_file": "voc_data/voice_data_谜图.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "明椒": {
+      "operator_name": "明椒",
+      "voice_data_file": "voc_data/voice_data_明椒.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Miss.Christine": {
+      "operator_name": "Miss.Christine",
+      "voice_data_file": "voc_data/voice_data_Miss.Christine.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "摩根": {
+      "operator_name": "摩根",
+      "voice_data_file": "voc_data/voice_data_摩根.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "莫斯提马": {
+      "operator_name": "莫斯提马",
+      "voice_data_file": "voc_data/voice_data_莫斯提马.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "魔王": {
+      "operator_name": "魔王",
+      "voice_data_file": "voc_data/voice_data_魔王.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "末药": {
+      "operator_name": "末药",
+      "voice_data_file": "voc_data/voice_data_末药.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Mon3tr": {
+      "operator_name": "Mon3tr",
+      "voice_data_file": "voc_data/voice_data_Mon3tr.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "缪尔赛思": {
+      "operator_name": "缪尔赛思",
+      "voice_data_file": "voc_data/voice_data_缪尔赛思.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "暮落": {
+      "operator_name": "暮落",
+      "voice_data_file": "voc_data/voice_data_暮落.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "钼铅": {
+      "operator_name": "钼铅",
+      "voice_data_file": "voc_data/voice_data_钼铅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "慕斯": {
+      "operator_name": "慕斯",
+      "voice_data_file": "voc_data/voice_data_慕斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "娜仁图亚": {
+      "operator_name": "娜仁图亚",
+      "voice_data_file": "voc_data/voice_data_娜仁图亚.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "能天使": {
+      "operator_name": "能天使",
+      "voice_data_file": "voc_data/voice_data_能天使.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "妮芙": {
+      "operator_name": "妮芙",
+      "voice_data_file": "voc_data/voice_data_妮芙.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "泥岩": {
+      "operator_name": "泥岩",
+      "voice_data_file": "voc_data/voice_data_泥岩.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "年": {
+      "operator_name": "年",
+      "voice_data_file": "voc_data/voice_data_年.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "诺威尔": {
+      "operator_name": "诺威尔",
+      "voice_data_file": "voc_data/voice_data_诺威尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "帕拉斯": {
+      "operator_name": "帕拉斯",
+      "voice_data_file": "voc_data/voice_data_帕拉斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "泡泡": {
+      "operator_name": "泡泡",
+      "voice_data_file": "voc_data/voice_data_泡泡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "泡普卡": {
+      "operator_name": "泡普卡",
+      "voice_data_file": "voc_data/voice_data_泡普卡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "佩佩": {
+      "operator_name": "佩佩",
+      "voice_data_file": "voc_data/voice_data_佩佩.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "PhonoR-0": {
+      "operator_name": "PhonoR-0",
+      "voice_data_file": "voc_data/voice_data_PhonoR-0.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "Pith": {
+      "operator_name": "Pith",
+      "voice_data_file": "voc_data/voice_data_Pith.csv",
+      "voice_data_exists": true,
+      "voice_entries": 13,
+      "missing_audio_files": [],
+      "total_expected_audio": 13,
+      "total_actual_audio": 13
+    },
+    "普罗旺斯": {
+      "operator_name": "普罗旺斯",
+      "voice_data_file": "voc_data/voice_data_普罗旺斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "齐尔查克": {
+      "operator_name": "齐尔查克",
+      "voice_data_file": "voc_data/voice_data_齐尔查克.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "任命助理",
+          "expected_filename": "齐尔查克_任命助理_80ed61f5ef7d4a9c7f438ba74b110cdc.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "交谈1",
+          "expected_filename": "齐尔查克_交谈1_9115059c2ccf340d6bba8f357596071a.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "交谈2",
+          "expected_filename": "齐尔查克_交谈2_00b8d8c387b3d747d4b3fe0e4e1ad19c.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "交谈3",
+          "expected_filename": "齐尔查克_交谈3_72d3f7aac8b908d53af51a25bcbd7a9a.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "晋升后交谈1",
+          "expected_filename": "齐尔查克_晋升后交谈1_3e3399a54e7ed7420dbb9936c71df76a.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "晋升后交谈2",
+          "expected_filename": "齐尔查克_晋升后交谈2_ef4cb4121b0dd209a7a3003b57c6158c.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "齐尔查克_信赖提升后交谈1_604e6a2fc00fe5f19f212d652843a2b0.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "齐尔查克_信赖提升后交谈2_feb2097e65db443669882b70362ee7a6.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "齐尔查克_信赖提升后交谈3_bb6acb8d321460f979ea1fc4c4eeaa3f.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "闲置",
+          "expected_filename": "齐尔查克_闲置_d6b5debced90eceadedc580b6fe9abac.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "干员报到",
+          "expected_filename": "齐尔查克_干员报到_6914e12ba248efd4b4c7965ea2303d46.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "观看作战记录",
+          "expected_filename": "齐尔查克_观看作战记录_460e3741c8f283889f27a30fbaef6176.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "精英化晋升1",
+          "expected_filename": "齐尔查克_精英化晋升1_0df13d2545091bbad5a85c2035c014f4.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "精英化晋升2",
+          "expected_filename": "齐尔查克_精英化晋升2_daf085a5acf726fee1eef37caaf05fc8.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "编入队伍",
+          "expected_filename": "齐尔查克_编入队伍_8220bf42f3bccdcd1aa523f9b205f96b.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "任命队长",
+          "expected_filename": "齐尔查克_任命队长_05483d2a65f6daed95b7939ef58e72da.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "行动出发",
+          "expected_filename": "齐尔查克_行动出发_750c5d7525036632db58cd8957edfd79.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "行动开始",
+          "expected_filename": "齐尔查克_行动开始_90ce89b234cbb9e73f2c5e46b2a328c7.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "选中干员1",
+          "expected_filename": "齐尔查克_选中干员1_bceb14f4ee507d6f822105bdc202a34a.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "选中干员2",
+          "expected_filename": "齐尔查克_选中干员2_512604b7b52b8f485e52516a31f4d550.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "部署1",
+          "expected_filename": "齐尔查克_部署1_84695c1e88ea3531b6809cd3ed9f0dc9.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "部署2",
+          "expected_filename": "齐尔查克_部署2_3383e0c22e1945c0a1016ec35b3167dd.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "作战中1",
+          "expected_filename": "齐尔查克_作战中1_f24121e163bece360357d37a4d223d5e.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "作战中2",
+          "expected_filename": "齐尔查克_作战中2_c2e818585ab2a2459a92f0c2b818f9e9.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "作战中3",
+          "expected_filename": "齐尔查克_作战中3_671e7d05218f510fd8fbb4b8474e16be.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "作战中4",
+          "expected_filename": "齐尔查克_作战中4_f397d7632924208d22d55970ac9bf631.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "完成高难行动",
+          "expected_filename": "齐尔查克_完成高难行动_2556e87a48c9e32bc9d4cf88409147b7.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "3星结束行动",
+          "expected_filename": "齐尔查克_3星结束行动_199ce0867468ead6675a8efd4a57947f.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "非3星结束行动",
+          "expected_filename": "齐尔查克_非3星结束行动_68473795c6f168fad35de9d325fc0173.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "行动失败",
+          "expected_filename": "齐尔查克_行动失败_03b659ff3251674308280833799d7595.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "进驻设施",
+          "expected_filename": "齐尔查克_进驻设施_107b993aff004ce9eacc566c52d9e1d3.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "戳一下",
+          "expected_filename": "齐尔查克_戳一下_1c5f57195e998154f67562adb10e379b.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "信赖触摸",
+          "expected_filename": "齐尔查克_信赖触摸_e4015d021cfbf1ab896660aac28f10a9.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "标题",
+          "expected_filename": "齐尔查克_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "新年祝福",
+          "expected_filename": "齐尔查克_新年祝福_8d638d1db746a74ab629b97c3b0dad40.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "问候",
+          "expected_filename": "齐尔查克_问候_90bb3e6a9b10f45f71949aee4d165a40.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "生日",
+          "expected_filename": "齐尔查克_生日_29913a4769c0a59fa12c66c0e1570cba.wav"
+        },
+        {
+          "voice_key": "char_4144_chilc",
+          "title": "周年庆典",
+          "expected_filename": "齐尔查克_周年庆典_1517d514e11b8eba0b4b975e5c941e4b.wav"
+        }
+      ],
+      "total_expected_audio": 38,
+      "total_actual_audio": 0
+    },
+    "绮良": {
+      "operator_name": "绮良",
+      "voice_data_file": "voc_data/voice_data_绮良.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "麒麟R夜刀": {
+      "operator_name": "麒麟R夜刀",
+      "voice_data_file": "voc_data/voice_data_麒麟R夜刀.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "铅踝": {
+      "operator_name": "铅踝",
+      "voice_data_file": "voc_data/voice_data_铅踝.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "琴柳": {
+      "operator_name": "琴柳",
+      "voice_data_file": "voc_data/voice_data_琴柳.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "清道夫": {
+      "operator_name": "清道夫",
+      "voice_data_file": "voc_data/voice_data_清道夫.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "清流": {
+      "operator_name": "清流",
+      "voice_data_file": "voc_data/voice_data_清流.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "青枳": {
+      "operator_name": "青枳",
+      "voice_data_file": "voc_data/voice_data_青枳.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "忍冬": {
+      "operator_name": "忍冬",
+      "voice_data_file": "voc_data/voice_data_忍冬.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "熔泉": {
+      "operator_name": "熔泉",
+      "voice_data_file": "voc_data/voice_data_熔泉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "塞雷娅": {
+      "operator_name": "塞雷娅",
+      "voice_data_file": "voc_data/voice_data_塞雷娅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "桑葚": {
+      "operator_name": "桑葚",
+      "voice_data_file": "voc_data/voice_data_桑葚.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "森蚺": {
+      "operator_name": "森蚺",
+      "voice_data_file": "voc_data/voice_data_森蚺.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "森西": {
+      "operator_name": "森西",
+      "voice_data_file": "voc_data/voice_data_森西.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "任命助理",
+          "expected_filename": "森西_任命助理_3dd5e892ec2861d36a94b0dab4903f58.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "交谈1",
+          "expected_filename": "森西_交谈1_02e3ca9671743779770676629ea40f34.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "交谈2",
+          "expected_filename": "森西_交谈2_8cd439bfacac2d2e542319bf18f7956d.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "交谈3",
+          "expected_filename": "森西_交谈3_4676fc457f7661422b8124b12afd9e61.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "晋升后交谈1",
+          "expected_filename": "森西_晋升后交谈1_81ac49a709396b022b4e57ffdd51a51a.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "晋升后交谈2",
+          "expected_filename": "森西_晋升后交谈2_99a7f036da6deeb1e66b8df4f29e781e.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "森西_信赖提升后交谈1_cef77052be83b88536495fb44dc5b240.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "森西_信赖提升后交谈2_b488a989eaa189f02af571a3beb4deb9.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "森西_信赖提升后交谈3_8045c2799d3a466fa5a4e0c7114e99af.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "闲置",
+          "expected_filename": "森西_闲置_fa28d9da47430c4de6222e279c1062b8.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "干员报到",
+          "expected_filename": "森西_干员报到_0a0b3f22a3a5833817987bb9d4a2dd95.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "观看作战记录",
+          "expected_filename": "森西_观看作战记录_4b08576b35ca1ece68deb65646fa85be.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "精英化晋升1",
+          "expected_filename": "森西_精英化晋升1_4c002175545104cec42daf115bf47544.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "精英化晋升2",
+          "expected_filename": "森西_精英化晋升2_d4645aaa036d99c4334ddb4aa96bbbfe.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "编入队伍",
+          "expected_filename": "森西_编入队伍_ef48b945c6550d1259e533acaaaaa38f.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "任命队长",
+          "expected_filename": "森西_任命队长_2f428431b4ae477bf9cc9580d3aafc4a.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "行动出发",
+          "expected_filename": "森西_行动出发_10cb8ff47cc7422075f5bb6db449a140.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "行动开始",
+          "expected_filename": "森西_行动开始_3a641eb9c3517b39bd06626a804278bf.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "选中干员1",
+          "expected_filename": "森西_选中干员1_c59ce2f06deb3b1f0f98c0aa390bceb8.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "选中干员2",
+          "expected_filename": "森西_选中干员2_36a41eb4b807a5a7cadaabcf24b158f7.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "部署1",
+          "expected_filename": "森西_部署1_e25e742267cce44c569f72c0c1d041ee.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "部署2",
+          "expected_filename": "森西_部署2_ba13f0f9dfa778536384fb70199bdbd1.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "作战中1",
+          "expected_filename": "森西_作战中1_6f1d419f29cd90f75ec4bea91b43b3fb.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "作战中2",
+          "expected_filename": "森西_作战中2_725addd109de73441c2e25dd33889b08.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "作战中3",
+          "expected_filename": "森西_作战中3_1d22d1de86a044fc37fb6515ef937c11.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "作战中4",
+          "expected_filename": "森西_作战中4_a9d960d2073c3f7fe9a01be46acc022e.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "完成高难行动",
+          "expected_filename": "森西_完成高难行动_9b7967f00b370c1f1f634b01d7e2ff6c.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "3星结束行动",
+          "expected_filename": "森西_3星结束行动_d0187edf246c94fbc46dadbbc4b561c2.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "非3星结束行动",
+          "expected_filename": "森西_非3星结束行动_0f86eb116457e4835bf493e857db1309.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "行动失败",
+          "expected_filename": "森西_行动失败_fb90051450a54d2ddb0b0aadb90d40ee.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "进驻设施",
+          "expected_filename": "森西_进驻设施_a38ab7341a407525c68ce8443a3280c2.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "戳一下",
+          "expected_filename": "森西_戳一下_99787377101c3b63f120a5d6b392a82a.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "信赖触摸",
+          "expected_filename": "森西_信赖触摸_37ee49ac6603a80f9c41c9fafaea1ec7.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "标题",
+          "expected_filename": "森西_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "新年祝福",
+          "expected_filename": "森西_新年祝福_aafb367def13854f00a0f811ff23861c.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "问候",
+          "expected_filename": "森西_问候_e621db93835771786fb37feb0a595ace.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "生日",
+          "expected_filename": "森西_生日_74e01f7943dfce5a329e4bbc4651945a.wav"
+        },
+        {
+          "voice_key": "char_4143_sensi",
+          "title": "周年庆典",
+          "expected_filename": "森西_周年庆典_d59c66beca179ae94bf8217fda0b108c.wav"
+        }
+      ],
+      "total_expected_audio": 38,
+      "total_actual_audio": 0
+    },
+    "莎草": {
+      "operator_name": "莎草",
+      "voice_data_file": "voc_data/voice_data_莎草.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "山": {
+      "operator_name": "山",
+      "voice_data_file": "voc_data/voice_data_山.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "闪击": {
+      "operator_name": "闪击",
+      "voice_data_file": "voc_data/voice_data_闪击.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_457_blitz",
+          "title": "任命助理",
+          "expected_filename": "闪击_任命助理_7e2fd0a617551869ed39b3b868a5fa0f.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "交谈1",
+          "expected_filename": "闪击_交谈1_544f131e666b5e4d3b149d464afd1352.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "交谈2",
+          "expected_filename": "闪击_交谈2_2ebbbf2b024e0b935b877230f28a43b1.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "交谈3",
+          "expected_filename": "闪击_交谈3_a1347c304efcbc70921db09a4bed4b8f.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "晋升后交谈1",
+          "expected_filename": "闪击_晋升后交谈1_d248690141384ac5ed49cfe90aea18af.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "晋升后交谈2",
+          "expected_filename": "闪击_晋升后交谈2_4c1cc8385681d39ba67513d03a5e425c.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "闪击_信赖提升后交谈1_de382c70da776e1c94b1467c439a0bc1.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "闪击_信赖提升后交谈2_747098927cb4bc16c138c62315a28f8a.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "闪击_信赖提升后交谈3_a4ca62ed1afe73ea1ee1dbceccbf5524.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "闲置",
+          "expected_filename": "闪击_闲置_ea051997a56d2d09113e5f2a91274752.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "干员报到",
+          "expected_filename": "闪击_干员报到_6044751152fecf6b0a9ceba84fbb7e15.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "观看作战记录",
+          "expected_filename": "闪击_观看作战记录_4cac4c36083914fcb107d953b37a29a3.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "精英化晋升1",
+          "expected_filename": "闪击_精英化晋升1_41ba9b68c93c9b898bdfdc7282b74cd3.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "精英化晋升2",
+          "expected_filename": "闪击_精英化晋升2_a4f102ebbd168a2d5685d46f593ea5f4.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "编入队伍",
+          "expected_filename": "闪击_编入队伍_78e2ef3d1a693e6923759024814c3e3a.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "任命队长",
+          "expected_filename": "闪击_任命队长_cdb9bd0a090e8ce3aa0fd92cb8815a7e.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "行动出发",
+          "expected_filename": "闪击_行动出发_414b3b91e080f749970c2e34c5f199d3.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "行动开始",
+          "expected_filename": "闪击_行动开始_bf41ea00389c9ecfe385bf91b3512d03.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "选中干员1",
+          "expected_filename": "闪击_选中干员1_12505e6935005d21432c41555af7a39d.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "选中干员2",
+          "expected_filename": "闪击_选中干员2_8b0881e4ff7113e370c62163a31087b7.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "部署1",
+          "expected_filename": "闪击_部署1_2ee5e1d3a07b8f2884401ff98dc21d83.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "部署2",
+          "expected_filename": "闪击_部署2_2fe31fba51067958178d716cc784fb97.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "作战中1",
+          "expected_filename": "闪击_作战中1_4435f11c882ed39097e88f5df7a5c4be.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "作战中2",
+          "expected_filename": "闪击_作战中2_b0a6838de101b21d7917adb140a515ec.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "作战中3",
+          "expected_filename": "闪击_作战中3_659cd718c0448791a9777f142cc05572.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "作战中4",
+          "expected_filename": "闪击_作战中4_4dbf61427a078101eec0a6eb92863778.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "完成高难行动",
+          "expected_filename": "闪击_完成高难行动_26c1447c77bf079057f8fea15f51025b.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "3星结束行动",
+          "expected_filename": "闪击_3星结束行动_bc1c0152cb1b35c68e0fa4349ce74209.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "非3星结束行动",
+          "expected_filename": "闪击_非3星结束行动_28349dc9f5123b57b15fad88b3672d5a.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "行动失败",
+          "expected_filename": "闪击_行动失败_4e4c5d80cb3cb951c5a0c5f6820f6266.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "进驻设施",
+          "expected_filename": "闪击_进驻设施_fa769ebdd6ed507bded957847b52dcf8.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "戳一下",
+          "expected_filename": "闪击_戳一下_f90cb5583b03e0979de1aaa928ca5102.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "信赖触摸",
+          "expected_filename": "闪击_信赖触摸_12dbadb3819df857074f775bac3c4171.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "标题",
+          "expected_filename": "闪击_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_457_blitz",
+          "title": "问候",
+          "expected_filename": "闪击_问候_627c23b9270649096dfb7dd8c45ca3f3.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "闪灵": {
+      "operator_name": "闪灵",
+      "voice_data_file": "voc_data/voice_data_闪灵.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Sharp": {
+      "operator_name": "Sharp",
+      "voice_data_file": "voc_data/voice_data_Sharp.csv",
+      "voice_data_exists": true,
+      "voice_entries": 13,
+      "missing_audio_files": [],
+      "total_expected_audio": 13,
+      "total_actual_audio": 13
+    },
+    "慑砂": {
+      "operator_name": "慑砂",
+      "voice_data_file": "voc_data/voice_data_慑砂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "蛇屠箱": {
+      "operator_name": "蛇屠箱",
+      "voice_data_file": "voc_data/voice_data_蛇屠箱.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "深靛": {
+      "operator_name": "深靛",
+      "voice_data_file": "voc_data/voice_data_深靛.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "深海色": {
+      "operator_name": "深海色",
+      "voice_data_file": "voc_data/voice_data_深海色.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "深律": {
+      "operator_name": "深律",
+      "voice_data_file": "voc_data/voice_data_深律.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "深巡": {
+      "operator_name": "深巡",
+      "voice_data_file": "voc_data/voice_data_深巡.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "圣约送葬人": {
+      "operator_name": "圣约送葬人",
+      "voice_data_file": "voc_data/voice_data_圣约送葬人.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "史都华德": {
+      "operator_name": "史都华德",
+      "voice_data_file": "voc_data/voice_data_史都华德.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "史尔特尔": {
+      "operator_name": "史尔特尔",
+      "voice_data_file": "voc_data/voice_data_史尔特尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "诗怀雅": {
+      "operator_name": "诗怀雅",
+      "voice_data_file": "voc_data/voice_data_诗怀雅.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "弑君者": {
+      "operator_name": "弑君者",
+      "voice_data_file": "voc_data/voice_data_弑君者.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "石棉": {
+      "operator_name": "石棉",
+      "voice_data_file": "voc_data/voice_data_石棉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "蚀清": {
+      "operator_name": "蚀清",
+      "voice_data_file": "voc_data/voice_data_蚀清.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "食铁兽": {
+      "operator_name": "食铁兽",
+      "voice_data_file": "voc_data/voice_data_食铁兽.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "狮蝎": {
+      "operator_name": "狮蝎",
+      "voice_data_file": "voc_data/voice_data_狮蝎.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "石英": {
+      "operator_name": "石英",
+      "voice_data_file": "voc_data/voice_data_石英.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "守林人": {
+      "operator_name": "守林人",
+      "voice_data_file": "voc_data/voice_data_守林人.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "黍": {
+      "operator_name": "黍",
+      "voice_data_file": "voc_data/voice_data_黍.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "霜华": {
+      "operator_name": "霜华",
+      "voice_data_file": "voc_data/voice_data_霜华.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "任命助理",
+          "expected_filename": "霜华_任命助理_2addd4a79b90515eafef820ba342b302.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "交谈1",
+          "expected_filename": "霜华_交谈1_ad047576981ad97deb86b02e66f81283.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "交谈2",
+          "expected_filename": "霜华_交谈2_9810f3d8dfe39e3392f89e1c94f28d62.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "交谈3",
+          "expected_filename": "霜华_交谈3_e3b04e725e5d27c3639c6cc865d44a06.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "晋升后交谈1",
+          "expected_filename": "霜华_晋升后交谈1_bc8e2f9964eb2762253e477f80a9bf97.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "晋升后交谈2",
+          "expected_filename": "霜华_晋升后交谈2_997cc06620efbab0dc393c04a1696915.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "霜华_信赖提升后交谈1_8f17910901758f4e3f708cacc5a38b28.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "霜华_信赖提升后交谈2_244ecf530084e247ed2848add856e12f.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "霜华_信赖提升后交谈3_c3070abbe822199f7cd174b28cdc7a6f.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "闲置",
+          "expected_filename": "霜华_闲置_7a47be11af74a0cbe6bbc5a18e08d91c.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "干员报到",
+          "expected_filename": "霜华_干员报到_14acd9a39e7b2c18d32767a57c48d0cc.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "观看作战记录",
+          "expected_filename": "霜华_观看作战记录_6bc98368f5572696d2549c3ef0ed4151.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "精英化晋升1",
+          "expected_filename": "霜华_精英化晋升1_cfee20261ca7a712d9becefa4bbc26c8.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "精英化晋升2",
+          "expected_filename": "霜华_精英化晋升2_cb7777cf885c3d97c879a490e275c66a.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "编入队伍",
+          "expected_filename": "霜华_编入队伍_be50e296624bee2ae3bbb9200114a4b7.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "任命队长",
+          "expected_filename": "霜华_任命队长_b6bad437d2d6e3449ea4f615cb1ed046.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "行动出发",
+          "expected_filename": "霜华_行动出发_9623cad17a71931cc38b0d90006d10c7.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "行动开始",
+          "expected_filename": "霜华_行动开始_e83bce3a06f8f6b8b03bf5ae9bb95653.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "选中干员1",
+          "expected_filename": "霜华_选中干员1_cd5f07fe8c1f4eee4ecb2f001aceb0b9.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "选中干员2",
+          "expected_filename": "霜华_选中干员2_0cdb59ec2feaeaf40ec890d7187554ed.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "部署1",
+          "expected_filename": "霜华_部署1_036ce821bb899cd317e9cd77cae39915.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "部署2",
+          "expected_filename": "霜华_部署2_0294eeaaadea42eb7f6fdeb3f4fc08b4.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "作战中1",
+          "expected_filename": "霜华_作战中1_bcb281c35a1402867beeca32c88086f3.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "作战中2",
+          "expected_filename": "霜华_作战中2_b0eacb4005a09a29cef3c09227bfdd3a.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "作战中3",
+          "expected_filename": "霜华_作战中3_3618aa177557c12dce8fdcd73159e3ea.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "作战中4",
+          "expected_filename": "霜华_作战中4_a07ab3c62362b19151bf885e01022c06.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "完成高难行动",
+          "expected_filename": "霜华_完成高难行动_9689d46b8a8d02e73733720c59ab7ed7.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "3星结束行动",
+          "expected_filename": "霜华_3星结束行动_5d770065e0de53bdac545f39d6fb3290.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "非3星结束行动",
+          "expected_filename": "霜华_非3星结束行动_ff4e5b61fb5663b63308da361d2ed3e2.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "行动失败",
+          "expected_filename": "霜华_行动失败_7aa644a7cb39fd9e4557089de192e6d5.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "进驻设施",
+          "expected_filename": "霜华_进驻设施_0037660e999df29a9dd965bd52773bfa.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "戳一下",
+          "expected_filename": "霜华_戳一下_5687bf66c530cd96f616d2e17190709a.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "信赖触摸",
+          "expected_filename": "霜华_信赖触摸_836c2e0cf8c485ea098bc05a42bc5c4f.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "标题",
+          "expected_filename": "霜华_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_458_rfrost",
+          "title": "问候",
+          "expected_filename": "霜华_问候_83a6f303fcbbb99de6aff65b090d8c85.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "霜叶": {
+      "operator_name": "霜叶",
+      "voice_data_file": "voc_data/voice_data_霜叶.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "双月": {
+      "operator_name": "双月",
+      "voice_data_file": "voc_data/voice_data_双月.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4124_iana",
+          "title": "任命助理",
+          "expected_filename": "双月_任命助理_e05fee1c99c593eea4453167c76f6c7b.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "交谈1",
+          "expected_filename": "双月_交谈1_5932c0055362c5a87233b18499a989d6.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "交谈2",
+          "expected_filename": "双月_交谈2_b3430ef4cab8f622c7dc7398d87d3e6d.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "交谈3",
+          "expected_filename": "双月_交谈3_c867644faf83a25cfc3db225ba5e1a1d.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "晋升后交谈1",
+          "expected_filename": "双月_晋升后交谈1_9f35297b091a92bb5ad25d4873ec6134.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "晋升后交谈2",
+          "expected_filename": "双月_晋升后交谈2_188662050bea24f670d22651681c3e31.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "双月_信赖提升后交谈1_c6448ce09dfdd79f96da6ff6340e8dbf.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "双月_信赖提升后交谈2_33629efd2739334c55958e72435ab5de.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "双月_信赖提升后交谈3_3b14906663fc4982b35911acf3b76f02.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "闲置",
+          "expected_filename": "双月_闲置_7d5bd59fd72638376f608752551cf341.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "干员报到",
+          "expected_filename": "双月_干员报到_fcd6ce5e1f83203710fa9ae2a3b9c2ed.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "观看作战记录",
+          "expected_filename": "双月_观看作战记录_79766ac5d69f88e2d7d1adf71bdb586c.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "精英化晋升1",
+          "expected_filename": "双月_精英化晋升1_df421550d7e221f7b25af34324a57e63.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "精英化晋升2",
+          "expected_filename": "双月_精英化晋升2_0f1cd6d036f3163ce06a48ad741cc3f2.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "编入队伍",
+          "expected_filename": "双月_编入队伍_01a128e725159eaa83f23f6504125ad8.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "任命队长",
+          "expected_filename": "双月_任命队长_b832a8903870a8a679f486611a8ada83.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "行动出发",
+          "expected_filename": "双月_行动出发_cba6e9a1dae606706606540c1d9f10ec.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "行动开始",
+          "expected_filename": "双月_行动开始_5cdf2b92245d3354d4b6808ace0b8126.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "选中干员1",
+          "expected_filename": "双月_选中干员1_f8bdb0e93fcb2038bafcbd4a86749495.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "选中干员2",
+          "expected_filename": "双月_选中干员2_9984aaffdf91afb9de020576f39a2186.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "部署1",
+          "expected_filename": "双月_部署1_3db7276b016e3601c34a9d3ce81b53ed.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "部署2",
+          "expected_filename": "双月_部署2_b185c4c8e7c0c7b2a52e4bda3b95808a.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "作战中1",
+          "expected_filename": "双月_作战中1_89155bddaaa93615a09bc15a817efdb8.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "作战中2",
+          "expected_filename": "双月_作战中2_0bf4d433b4eaaa95acfb62f1deba6ee5.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "作战中3",
+          "expected_filename": "双月_作战中3_94ffefd01c0f417aaca464d0e12c1e02.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "作战中4",
+          "expected_filename": "双月_作战中4_613a1378e34740ef3034ca4f992e20df.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "完成高难行动",
+          "expected_filename": "双月_完成高难行动_ec382211a3acd235727b3ea5face3d62.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "3星结束行动",
+          "expected_filename": "双月_3星结束行动_82a0b33ec540e31be18b1477d1c3da3b.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "非3星结束行动",
+          "expected_filename": "双月_非3星结束行动_82be5116b78b612fd5990783d4b4ea24.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "行动失败",
+          "expected_filename": "双月_行动失败_bdd09002ee42ad48971596a49c3400a8.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "进驻设施",
+          "expected_filename": "双月_进驻设施_4be7a01b052ddb8427f4bbadf588395e.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "戳一下",
+          "expected_filename": "双月_戳一下_d7a11a31b421bbebdeb9e95a5115a2bf.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "信赖触摸",
+          "expected_filename": "双月_信赖触摸_592c80abdb22e2d483cb9fb89b06865b.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "标题",
+          "expected_filename": "双月_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4124_iana",
+          "title": "问候",
+          "expected_filename": "双月_问候_996bbbf0373dab3439e6caec26e9e336.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "水灯心": {
+      "operator_name": "水灯心",
+      "voice_data_file": "voc_data/voice_data_水灯心.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "水月": {
+      "operator_name": "水月",
+      "voice_data_file": "voc_data/voice_data_水月.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "斯卡蒂": {
+      "operator_name": "斯卡蒂",
+      "voice_data_file": "voc_data/voice_data_斯卡蒂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "死芒": {
+      "operator_name": "死芒",
+      "voice_data_file": "voc_data/voice_data_死芒.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "司霆惊蛰": {
+      "operator_name": "司霆惊蛰",
+      "voice_data_file": "voc_data/voice_data_司霆惊蛰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "四月": {
+      "operator_name": "四月",
+      "voice_data_file": "voc_data/voice_data_四月.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "松果": {
+      "operator_name": "松果",
+      "voice_data_file": "voc_data/voice_data_松果.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "松桐": {
+      "operator_name": "松桐",
+      "voice_data_file": "voc_data/voice_data_松桐.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "送葬人": {
+      "operator_name": "送葬人",
+      "voice_data_file": "voc_data/voice_data_送葬人.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Stormeye": {
+      "operator_name": "Stormeye",
+      "voice_data_file": "voc_data/voice_data_Stormeye.csv",
+      "voice_data_exists": true,
+      "voice_entries": 13,
+      "missing_audio_files": [],
+      "total_expected_audio": 13,
+      "total_actual_audio": 13
+    },
+    "苏苏洛": {
+      "operator_name": "苏苏洛",
+      "voice_data_file": "voc_data/voice_data_苏苏洛.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "塑心": {
+      "operator_name": "塑心",
+      "voice_data_file": "voc_data/voice_data_塑心.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "酸糖": {
+      "operator_name": "酸糖",
+      "voice_data_file": "voc_data/voice_data_酸糖.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "燧石": {
+      "operator_name": "燧石",
+      "voice_data_file": "voc_data/voice_data_燧石.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "THRM-EX": {
+      "operator_name": "THRM-EX",
+      "voice_data_file": "voc_data/voice_data_THRM-EX.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "泰拉大陆调查团": {
+      "operator_name": "泰拉大陆调查团",
+      "voice_data_file": "voc_data/voice_data_泰拉大陆调查团.csv",
+      "voice_data_exists": true,
+      "voice_entries": 31,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4077_palico",
+          "title": "任命助理",
+          "expected_filename": "泰拉大陆调查团_任命助理_7621011eb7d2436537e73c8f20bdec5d.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "交谈1",
+          "expected_filename": "泰拉大陆调查团_交谈1_562b8f1715ab1fdacde533474839f168.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "交谈2",
+          "expected_filename": "泰拉大陆调查团_交谈2_d36b0cb0fa29d0e82f1e88433f3ad28f.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "交谈3",
+          "expected_filename": "泰拉大陆调查团_交谈3_29c9e5bcf09a19d780f1df32dac49689.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "泰拉大陆调查团_信赖提升后交谈1_bbabbde007849a768f8f804af74d0db5.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "泰拉大陆调查团_信赖提升后交谈2_c6f17295f7b63f8ba2d3cb6769f05590.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "泰拉大陆调查团_信赖提升后交谈3_7239f7eaf9c912feac16bed5f28090c4.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "闲置",
+          "expected_filename": "泰拉大陆调查团_闲置_9fd41356922bed91336819d852cef439.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "干员报到",
+          "expected_filename": "泰拉大陆调查团_干员报到_aa085acb8a47b389ae3396a5fcec5473.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "观看作战记录",
+          "expected_filename": "泰拉大陆调查团_观看作战记录_fb562f053f1988a79e2ae51582f3dec0.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "编入队伍",
+          "expected_filename": "泰拉大陆调查团_编入队伍_afab32af6fc5086a904ac13a72d91555.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "任命队长",
+          "expected_filename": "泰拉大陆调查团_任命队长_be8f2339e198dd6181969439f5cccec3.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "行动出发",
+          "expected_filename": "泰拉大陆调查团_行动出发_62b62d3c95f6f064d86a16f010a0add6.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "行动开始",
+          "expected_filename": "泰拉大陆调查团_行动开始_34fd58f7fa594e591eae930cb48d74ed.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "选中干员1",
+          "expected_filename": "泰拉大陆调查团_选中干员1_d5dd84852d3a991a665821a873a54842.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "选中干员2",
+          "expected_filename": "泰拉大陆调查团_选中干员2_f3b2bff77773b9927b36f239b7beb99e.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "部署1",
+          "expected_filename": "泰拉大陆调查团_部署1_c2db546526eafe4058a4d9c3ca860470.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "部署2",
+          "expected_filename": "泰拉大陆调查团_部署2_c5028c6b29fc2369f4d3e779db4ee775.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "作战中1",
+          "expected_filename": "泰拉大陆调查团_作战中1_16f61d02cd27379421a8d19c20241811.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "作战中2",
+          "expected_filename": "泰拉大陆调查团_作战中2_d8db44cd3ebc4a09f379292fab8381e8.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "作战中3",
+          "expected_filename": "泰拉大陆调查团_作战中3_9e42113cf1e8e5776c5c44b587ed1b5b.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "作战中4",
+          "expected_filename": "泰拉大陆调查团_作战中4_96a1ac45e0209bb34671afcf3842715a.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "完成高难行动",
+          "expected_filename": "泰拉大陆调查团_完成高难行动_666fec503e8dff9d20b3d26c5375300f.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "3星结束行动",
+          "expected_filename": "泰拉大陆调查团_3星结束行动_281e6d49fa3b0875a7ee5ff17ec511b8.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "非3星结束行动",
+          "expected_filename": "泰拉大陆调查团_非3星结束行动_9a29e9f795779e56bc2c9e5e6dd3c457.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "行动失败",
+          "expected_filename": "泰拉大陆调查团_行动失败_3ebdb8d59aca4dbc16ede774dc0f025b.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "进驻设施",
+          "expected_filename": "泰拉大陆调查团_进驻设施_3e1e8c1434bab3dba57423dbac05e5e2.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "戳一下",
+          "expected_filename": "泰拉大陆调查团_戳一下_1ec1892f1581275933fb163aab7885b6.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "信赖触摸",
+          "expected_filename": "泰拉大陆调查团_信赖触摸_5f182f9480077e095debf882cd0385f6.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "标题",
+          "expected_filename": "泰拉大陆调查团_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4077_palico",
+          "title": "问候",
+          "expected_filename": "泰拉大陆调查团_问候_db47068ba53c27cabe5ec75a7b8e2924.wav"
+        }
+      ],
+      "total_expected_audio": 31,
+      "total_actual_audio": 0
+    },
+    "桃金娘": {
+      "operator_name": "桃金娘",
+      "voice_data_file": "voc_data/voice_data_桃金娘.csv",
+      "voice_data_exists": true,
+      "voice_entries": 37,
+      "missing_audio_files": [],
+      "total_expected_audio": 37,
+      "total_actual_audio": 37
+    },
+    "特克诺": {
+      "operator_name": "特克诺",
+      "voice_data_file": "voc_data/voice_data_特克诺.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "特米米": {
+      "operator_name": "特米米",
+      "voice_data_file": "voc_data/voice_data_特米米.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "提丰": {
+      "operator_name": "提丰",
+      "voice_data_file": "voc_data/voice_data_提丰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "天火": {
+      "operator_name": "天火",
+      "voice_data_file": "voc_data/voice_data_天火.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "Touch": {
+      "operator_name": "Touch",
+      "voice_data_file": "voc_data/voice_data_Touch.csv",
+      "voice_data_exists": true,
+      "voice_entries": 13,
+      "missing_audio_files": [],
+      "total_expected_audio": 13,
+      "total_actual_audio": 13
+    },
+    "图耶": {
+      "operator_name": "图耶",
+      "voice_data_file": "voc_data/voice_data_图耶.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "推进之王": {
+      "operator_name": "推进之王",
+      "voice_data_file": "voc_data/voice_data_推进之王.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "U-Official": {
+      "operator_name": "U-Official",
+      "voice_data_file": "voc_data/voice_data_U-Official.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "W": {
+      "operator_name": "W",
+      "voice_data_file": "voc_data/voice_data_W.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "万顷": {
+      "operator_name": "万顷",
+      "voice_data_file": "voc_data/voice_data_万顷.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "苇草": {
+      "operator_name": "苇草",
+      "voice_data_file": "voc_data/voice_data_苇草.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "维荻": {
+      "operator_name": "维荻",
+      "voice_data_file": "voc_data/voice_data_维荻.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "微风": {
+      "operator_name": "微风",
+      "voice_data_file": "voc_data/voice_data_微风.csv",
+      "voice_data_exists": true,
+      "voice_entries": 37,
+      "missing_audio_files": [],
+      "total_expected_audio": 37,
+      "total_actual_audio": 37
+    },
+    "维娜·维多利亚": {
+      "operator_name": "维娜·维多利亚",
+      "voice_data_file": "voc_data/voice_data_维娜·维多利亚.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "维什戴尔": {
+      "operator_name": "维什戴尔",
+      "voice_data_file": "voc_data/voice_data_维什戴尔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "薇薇安娜": {
+      "operator_name": "薇薇安娜",
+      "voice_data_file": "voc_data/voice_data_薇薇安娜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "温蒂": {
+      "operator_name": "温蒂",
+      "voice_data_file": "voc_data/voice_data_温蒂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "温米": {
+      "operator_name": "温米",
+      "voice_data_file": "voc_data/voice_data_温米.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "乌尔比安": {
+      "operator_name": "乌尔比安",
+      "voice_data_file": "voc_data/voice_data_乌尔比安.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "巫恋": {
+      "operator_name": "巫恋",
+      "voice_data_file": "voc_data/voice_data_巫恋.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "乌有": {
+      "operator_name": "乌有",
+      "voice_data_file": "voc_data/voice_data_乌有.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "夕": {
+      "operator_name": "夕",
+      "voice_data_file": "voc_data/voice_data_夕.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "锡兰": {
+      "operator_name": "锡兰",
+      "voice_data_file": "voc_data/voice_data_锡兰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 37,
+      "missing_audio_files": [],
+      "total_expected_audio": 37,
+      "total_actual_audio": 37
+    },
+    "锡人": {
+      "operator_name": "锡人",
+      "voice_data_file": "voc_data/voice_data_锡人.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "稀音": {
+      "operator_name": "稀音",
+      "voice_data_file": "voc_data/voice_data_稀音.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "瑕光": {
+      "operator_name": "瑕光",
+      "voice_data_file": "voc_data/voice_data_瑕光.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "夏栎": {
+      "operator_name": "夏栎",
+      "voice_data_file": "voc_data/voice_data_夏栎.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "香草": {
+      "operator_name": "香草",
+      "voice_data_file": "voc_data/voice_data_香草.csv",
+      "voice_data_exists": true,
+      "voice_entries": 36,
+      "missing_audio_files": [],
+      "total_expected_audio": 36,
+      "total_actual_audio": 36
+    },
+    "晓歌": {
+      "operator_name": "晓歌",
+      "voice_data_file": "voc_data/voice_data_晓歌.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "小满": {
+      "operator_name": "小满",
+      "voice_data_file": "voc_data/voice_data_小满.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "信仰搅拌机": {
+      "operator_name": "信仰搅拌机",
+      "voice_data_file": "voc_data/voice_data_信仰搅拌机.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "新约能天使": {
+      "operator_name": "新约能天使",
+      "voice_data_file": "voc_data/voice_data_新约能天使.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "星极": {
+      "operator_name": "星极",
+      "voice_data_file": "voc_data/voice_data_星极.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "杏仁": {
+      "operator_name": "杏仁",
+      "voice_data_file": "voc_data/voice_data_杏仁.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "星熊": {
+      "operator_name": "星熊",
+      "voice_data_file": "voc_data/voice_data_星熊.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "星源": {
+      "operator_name": "星源",
+      "voice_data_file": "voc_data/voice_data_星源.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "行箸": {
+      "operator_name": "行箸",
+      "voice_data_file": "voc_data/voice_data_行箸.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "休谟斯": {
+      "operator_name": "休谟斯",
+      "voice_data_file": "voc_data/voice_data_休谟斯.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "絮雨": {
+      "operator_name": "絮雨",
+      "voice_data_file": "voc_data/voice_data_絮雨.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "雪绒": {
+      "operator_name": "雪绒",
+      "voice_data_file": "voc_data/voice_data_雪绒.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "雪雉": {
+      "operator_name": "雪雉",
+      "voice_data_file": "voc_data/voice_data_雪雉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "寻澜": {
+      "operator_name": "寻澜",
+      "voice_data_file": "voc_data/voice_data_寻澜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "巡林者": {
+      "operator_name": "巡林者",
+      "voice_data_file": "voc_data/voice_data_巡林者.csv",
+      "voice_data_exists": true,
+      "voice_entries": 32,
+      "missing_audio_files": [],
+      "total_expected_audio": 32,
+      "total_actual_audio": 32
+    },
+    "讯使": {
+      "operator_name": "讯使",
+      "voice_data_file": "voc_data/voice_data_讯使.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "崖心": {
+      "operator_name": "崖心",
+      "voice_data_file": "voc_data/voice_data_崖心.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "亚叶": {
+      "operator_name": "亚叶",
+      "voice_data_file": "voc_data/voice_data_亚叶.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "宴": {
+      "operator_name": "宴",
+      "voice_data_file": "voc_data/voice_data_宴.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "炎客": {
+      "operator_name": "炎客",
+      "voice_data_file": "voc_data/voice_data_炎客.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "炎熔": {
+      "operator_name": "炎熔",
+      "voice_data_file": "voc_data/voice_data_炎熔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "焰尾": {
+      "operator_name": "焰尾",
+      "voice_data_file": "voc_data/voice_data_焰尾.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "焰影苇草": {
+      "operator_name": "焰影苇草",
+      "voice_data_file": "voc_data/voice_data_焰影苇草.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "炎狱炎熔": {
+      "operator_name": "炎狱炎熔",
+      "voice_data_file": "voc_data/voice_data_炎狱炎熔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "洋灰": {
+      "operator_name": "洋灰",
+      "voice_data_file": "voc_data/voice_data_洋灰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "遥": {
+      "operator_name": "遥",
+      "voice_data_file": "voc_data/voice_data_遥.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "耀骑士临光": {
+      "operator_name": "耀骑士临光",
+      "voice_data_file": "voc_data/voice_data_耀骑士临光.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "夜半": {
+      "operator_name": "夜半",
+      "voice_data_file": "voc_data/voice_data_夜半.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "夜刀": {
+      "operator_name": "夜刀",
+      "voice_data_file": "voc_data/voice_data_夜刀.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "耶拉": {
+      "operator_name": "耶拉",
+      "voice_data_file": "voc_data/voice_data_耶拉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "夜魔": {
+      "operator_name": "夜魔",
+      "voice_data_file": "voc_data/voice_data_夜魔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "夜烟": {
+      "operator_name": "夜烟",
+      "voice_data_file": "voc_data/voice_data_夜烟.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "夜莺": {
+      "operator_name": "夜莺",
+      "voice_data_file": "voc_data/voice_data_夜莺.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "野鬃": {
+      "operator_name": "野鬃",
+      "voice_data_file": "voc_data/voice_data_野鬃.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "伊芙利特": {
+      "operator_name": "伊芙利特",
+      "voice_data_file": "voc_data/voice_data_伊芙利特.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "异客": {
+      "operator_name": "异客",
+      "voice_data_file": "voc_data/voice_data_异客.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "伊内丝": {
+      "operator_name": "伊内丝",
+      "voice_data_file": "voc_data/voice_data_伊内丝.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "伊桑": {
+      "operator_name": "伊桑",
+      "voice_data_file": "voc_data/voice_data_伊桑.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "医生": {
+      "operator_name": "医生",
+      "voice_data_file": "voc_data/voice_data_医生.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "任命助理",
+          "expected_filename": "医生_任命助理_5c35cf230702c4783fe33edefed16f04.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "交谈1",
+          "expected_filename": "医生_交谈1_28b17d3db0e190bde7fa26e62f911849.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "交谈2",
+          "expected_filename": "医生_交谈2_c02ab760701e50a3bfecdb9fa8977f85.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "交谈3",
+          "expected_filename": "医生_交谈3_5099f147f2d317e10dd8d5148609175c.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "晋升后交谈1",
+          "expected_filename": "医生_晋升后交谈1_f86718a51f23ac53e36ab12ef82641af.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "晋升后交谈2",
+          "expected_filename": "医生_晋升后交谈2_30553471aa29a17c943cf23843367349.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "医生_信赖提升后交谈1_54ecbb1aaf181b59e98a8db98801f1df.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "医生_信赖提升后交谈2_5a639295f53800dd34f8622629f0d25a.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "医生_信赖提升后交谈3_70671934e2e97e42b3e0a6804c61be05.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "闲置",
+          "expected_filename": "医生_闲置_1518d5a2df96542f47b2ecd933063d93.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "干员报到",
+          "expected_filename": "医生_干员报到_f3be522c6dee3b074d84bfcce3f028d4.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "观看作战记录",
+          "expected_filename": "医生_观看作战记录_c32651f094fedbbd567be91b346ade9c.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "精英化晋升1",
+          "expected_filename": "医生_精英化晋升1_407b85da536817c91a682cbb7f5dd0c6.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "精英化晋升2",
+          "expected_filename": "医生_精英化晋升2_592d44bfa758eeb4cd7dc1c8e034af94.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "编入队伍",
+          "expected_filename": "医生_编入队伍_f2b4758e99dbadfcb77b628c429ab82b.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "任命队长",
+          "expected_filename": "医生_任命队长_12139b9824589e7f8da65c9d7e588733.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "行动出发",
+          "expected_filename": "医生_行动出发_6db3dca1e9ebadec421437741802f991.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "行动开始",
+          "expected_filename": "医生_行动开始_55d73b99101e96305bfeb7db140a748d.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "选中干员1",
+          "expected_filename": "医生_选中干员1_c181ae1da3f5cca221dac0d52b36e713.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "选中干员2",
+          "expected_filename": "医生_选中干员2_cb738aa215afdb2673aaec8fce984f82.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "部署1",
+          "expected_filename": "医生_部署1_1edff9fc53cdf88ede49ff76ae34d839.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "部署2",
+          "expected_filename": "医生_部署2_38f5f2c3912372e2df144005b7a9106f.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "作战中1",
+          "expected_filename": "医生_作战中1_6ab3a6d377a90a1e869ae2c5d6860760.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "作战中2",
+          "expected_filename": "医生_作战中2_5cdf2b92245d3354d4b6808ace0b8126.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "作战中3",
+          "expected_filename": "医生_作战中3_e46e3ce73c760359b705770f478b9105.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "作战中4",
+          "expected_filename": "医生_作战中4_5532e825a909d0ce0624d23e693a98fd.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "完成高难行动",
+          "expected_filename": "医生_完成高难行动_b66aeb86d1837cc5783a7aa8e8be296c.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "3星结束行动",
+          "expected_filename": "医生_3星结束行动_40aaa3f296f980ad0718e3b886f8d8ac.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "非3星结束行动",
+          "expected_filename": "医生_非3星结束行动_94c82a2a81ca793f355c38365add9674.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "行动失败",
+          "expected_filename": "医生_行动失败_52867b04b5730676869ce5e3b3a66434.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "进驻设施",
+          "expected_filename": "医生_进驻设施_6d6671fc15981dddeb79dadcdb179cfe.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "戳一下",
+          "expected_filename": "医生_戳一下_24460f7e453a985789ffa303c0d9c4d4.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "信赖触摸",
+          "expected_filename": "医生_信赖触摸_3e31ee68da260efdc9db28fbc514391a.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "标题",
+          "expected_filename": "医生_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_4125_rdoc",
+          "title": "问候",
+          "expected_filename": "医生_问候_9adae3535e3e7684213ffac648d3790d.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "隐德来希": {
+      "operator_name": "隐德来希",
+      "voice_data_file": "voc_data/voice_data_隐德来希.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "银灰": {
+      "operator_name": "银灰",
+      "voice_data_file": "voc_data/voice_data_银灰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "因陀罗": {
+      "operator_name": "因陀罗",
+      "voice_data_file": "voc_data/voice_data_因陀罗.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "隐现": {
+      "operator_name": "隐现",
+      "voice_data_file": "voc_data/voice_data_隐现.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "引星棘刺": {
+      "operator_name": "引星棘刺",
+      "voice_data_file": "voc_data/voice_data_引星棘刺.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "幽灵鲨": {
+      "operator_name": "幽灵鲨",
+      "voice_data_file": "voc_data/voice_data_幽灵鲨.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "余": {
+      "operator_name": "余",
+      "voice_data_file": "voc_data/voice_data_余.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "郁金香": {
+      "operator_name": "郁金香",
+      "voice_data_file": "voc_data/voice_data_郁金香.csv",
+      "voice_data_exists": true,
+      "voice_entries": 13,
+      "missing_audio_files": [],
+      "total_expected_audio": 13,
+      "total_actual_audio": 13
+    },
+    "羽毛笔": {
+      "operator_name": "羽毛笔",
+      "voice_data_file": "voc_data/voice_data_羽毛笔.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "远山": {
+      "operator_name": "远山",
+      "voice_data_file": "voc_data/voice_data_远山.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "远牙": {
+      "operator_name": "远牙",
+      "voice_data_file": "voc_data/voice_data_远牙.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "月禾": {
+      "operator_name": "月禾",
+      "voice_data_file": "voc_data/voice_data_月禾.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "月见夜": {
+      "operator_name": "月见夜",
+      "voice_data_file": "voc_data/voice_data_月见夜.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "跃跃": {
+      "operator_name": "跃跃",
+      "voice_data_file": "voc_data/voice_data_跃跃.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "云迹": {
+      "operator_name": "云迹",
+      "voice_data_file": "voc_data/voice_data_云迹.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "陨星": {
+      "operator_name": "陨星",
+      "voice_data_file": "voc_data/voice_data_陨星.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "早露": {
+      "operator_name": "早露",
+      "voice_data_file": "voc_data/voice_data_早露.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "战车": {
+      "operator_name": "战车",
+      "voice_data_file": "voc_data/voice_data_战车.csv",
+      "voice_data_exists": true,
+      "voice_entries": 35,
+      "missing_audio_files": [
+        {
+          "voice_key": "char_459_tachak",
+          "title": "任命助理",
+          "expected_filename": "战车_任命助理_83e2bb0f7aad39cea56839859ada60d2.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "交谈1",
+          "expected_filename": "战车_交谈1_f906f58783827a5ce59759528fd90b44.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "交谈2",
+          "expected_filename": "战车_交谈2_d5fd1e3349d1e4b3118a35496701a058.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "交谈3",
+          "expected_filename": "战车_交谈3_c758039f6653cc3a258387e23bdcf1e5.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "晋升后交谈1",
+          "expected_filename": "战车_晋升后交谈1_7a5a873e0dc2d52400901221e05e92cb.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "晋升后交谈2",
+          "expected_filename": "战车_晋升后交谈2_bb9f8afa06553b1fcb2ca4b53d7f0204.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "信赖提升后交谈1",
+          "expected_filename": "战车_信赖提升后交谈1_2dd7d92ba50c87bf9bd1f566e4ec82a3.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "信赖提升后交谈2",
+          "expected_filename": "战车_信赖提升后交谈2_712865f2f1b83a1f627b47452c69bc25.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "信赖提升后交谈3",
+          "expected_filename": "战车_信赖提升后交谈3_c22a1244917a3b7f724425378c6180b5.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "闲置",
+          "expected_filename": "战车_闲置_a8afcbfc28b7c438e3e4e8fab41a97a6.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "干员报到",
+          "expected_filename": "战车_干员报到_e27125cc94ca0ef382dcd2f46dd97656.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "观看作战记录",
+          "expected_filename": "战车_观看作战记录_2f64e4ea6628230f88b3ce7aa27f6e8d.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "精英化晋升1",
+          "expected_filename": "战车_精英化晋升1_a694aab4bdddb8f3c099e767bfd6a514.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "精英化晋升2",
+          "expected_filename": "战车_精英化晋升2_d59d15b0c1c68cd390666fc7fbaa8fac.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "编入队伍",
+          "expected_filename": "战车_编入队伍_320701a6ed70c7462e4c21286f125a6e.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "任命队长",
+          "expected_filename": "战车_任命队长_5dc754e33f68cb63498061c3f5594c6e.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "行动出发",
+          "expected_filename": "战车_行动出发_a63cfedcc02e1555b07e2dbb92649aa1.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "行动开始",
+          "expected_filename": "战车_行动开始_ed7f85f6e1ba3b0e9cac02a890ba4169.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "选中干员1",
+          "expected_filename": "战车_选中干员1_de1ac736d28c82a206bc5224d5af7278.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "选中干员2",
+          "expected_filename": "战车_选中干员2_49901c74aa7677b71c8ca005a2999382.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "部署1",
+          "expected_filename": "战车_部署1_839a9573c25f33583167baeed4423e3d.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "部署2",
+          "expected_filename": "战车_部署2_23ad8efb6ded431a09192525a864c711.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "作战中1",
+          "expected_filename": "战车_作战中1_c2f822d7dedd0754539f482ad46612b9.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "作战中2",
+          "expected_filename": "战车_作战中2_c4408c0a6a6eeaf866cdce52c9bb0211.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "作战中3",
+          "expected_filename": "战车_作战中3_6404f1ab0362a2098c83bf78bf9fd9eb.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "作战中4",
+          "expected_filename": "战车_作战中4_0b9203bbcbfb9488ce371fe5fa2d16bc.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "完成高难行动",
+          "expected_filename": "战车_完成高难行动_cbcedad19207bf121e1cef422c8a9c06.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "3星结束行动",
+          "expected_filename": "战车_3星结束行动_c4369f139417be6c21b388c3c8e5ec5e.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "非3星结束行动",
+          "expected_filename": "战车_非3星结束行动_1c6134d5934fc90c958684bfb99f22ea.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "行动失败",
+          "expected_filename": "战车_行动失败_4985b0493538a8c7a971a646cc2c8760.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "进驻设施",
+          "expected_filename": "战车_进驻设施_1eb3be1a85e02976bf16e271093ad585.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "戳一下",
+          "expected_filename": "战车_戳一下_72b299a3f03a4bedf5785b3a38356a28.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "信赖触摸",
+          "expected_filename": "战车_信赖触摸_759e58cb8deaa75c10e5e5ac5398018a.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "标题",
+          "expected_filename": "战车_标题_0e90133f020eda810fb67621a905b69b.wav"
+        },
+        {
+          "voice_key": "char_459_tachak",
+          "title": "问候",
+          "expected_filename": "战车_问候_928e03de1ccc1085173f63453916895c.wav"
+        }
+      ],
+      "total_expected_audio": 35,
+      "total_actual_audio": 0
+    },
+    "斩业星熊": {
+      "operator_name": "斩业星熊",
+      "voice_data_file": "voc_data/voice_data_斩业星熊.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "折光": {
+      "operator_name": "折光",
+      "voice_data_file": "voc_data/voice_data_折光.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "真理": {
+      "operator_name": "真理",
+      "voice_data_file": "voc_data/voice_data_真理.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "正义骑士号": {
+      "operator_name": "正义骑士号",
+      "voice_data_file": "voc_data/voice_data_正义骑士号.csv",
+      "voice_data_exists": true,
+      "voice_entries": 34,
+      "missing_audio_files": [],
+      "total_expected_audio": 34,
+      "total_actual_audio": 34
+    },
+    "至简": {
+      "operator_name": "至简",
+      "voice_data_file": "voc_data/voice_data_至简.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "止颂": {
+      "operator_name": "止颂",
+      "voice_data_file": "voc_data/voice_data_止颂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "重岳": {
+      "operator_name": "重岳",
+      "voice_data_file": "voc_data/voice_data_重岳.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "烛煌": {
+      "operator_name": "烛煌",
+      "voice_data_file": "voc_data/voice_data_烛煌.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "铸铁": {
+      "operator_name": "铸铁",
+      "voice_data_file": "voc_data/voice_data_铸铁.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "濯尘芙蓉": {
+      "operator_name": "濯尘芙蓉",
+      "voice_data_file": "voc_data/voice_data_濯尘芙蓉.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "浊心斯卡蒂": {
+      "operator_name": "浊心斯卡蒂",
+      "voice_data_file": "voc_data/voice_data_浊心斯卡蒂.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "梓兰": {
+      "operator_name": "梓兰",
+      "voice_data_file": "voc_data/voice_data_梓兰.csv",
+      "voice_data_exists": true,
+      "voice_entries": 36,
+      "missing_audio_files": [],
+      "total_expected_audio": 36,
+      "total_actual_audio": 36
+    },
+    "子月": {
+      "operator_name": "子月",
+      "voice_data_file": "voc_data/voice_data_子月.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    },
+    "左乐": {
+      "operator_name": "左乐",
+      "voice_data_file": "voc_data/voice_data_左乐.csv",
+      "voice_data_exists": true,
+      "voice_entries": 38,
+      "missing_audio_files": [],
+      "total_expected_audio": 38,
+      "total_actual_audio": 38
+    }
+  }
+}

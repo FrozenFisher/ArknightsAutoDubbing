@@ -9,16 +9,17 @@ from pynput.mouse import Button
 import pyautogui
 import os
 from datetime import datetime
+import subprocess
 
 # 导入OCR模块（这会触发模型预加载）
 print("正在启动OCR应用...")
 from lib.ocr import ocr
-from lib.ref.loader import find_audio_by_char_name
 from lib.tts_service import SiliconFlowTTS
 
 class OCRApp:
-    def __init__(self):
-        self.root = None
+    def __init__(self, root: tk.Tk):
+        # 绑定主 root（外部创建并隐藏）
+        self.root = root
         self.settings_window = None
         self.regions = []
         self.current_region = None
@@ -28,9 +29,15 @@ class OCRApp:
         self.overlay_window = None
         self.overlay_canvas = None
         self.last_ocr_time = 0  # 添加防抖时间记录
+        # 状态提示窗口
+        self.status_window = None
+        self.status_label = None
         
         # TTS 客户端（若无API Key则内部降级为不可用）
         self.tts = SiliconFlowTTS()
+        
+        # 最近一次有效的角色名，用于当本轮未识别到角色名时回退使用
+        self.last_char_name = None
         
         # 加载保存的区域设置
         self.load_regions()
@@ -43,7 +50,75 @@ class OCRApp:
         print("- 空格键: 识别当前设置的区域")
         print("- F12: 打开设置界面")
         print("- Ctrl+Q: 退出应用")
-    
+
+        # 显示初始等待状态
+        self.show_status("等待")
+
+    def _ensure_status_window(self):
+        if self.status_window and tk.Toplevel.winfo_exists(self.status_window):
+            return
+        # 创建小型置顶无边框状态窗
+        self.status_window = tk.Toplevel(self.root)
+        self.status_window.overrideredirect(True)
+        self.status_window.attributes('-topmost', True)
+        try:
+            self.status_window.attributes('-alpha', 0.92)
+        except Exception:
+            pass
+        frame = tk.Frame(self.status_window, bg='#111111', bd=0, highlightthickness=0)
+        frame.pack(fill='both', expand=True)
+        self.status_label = tk.Label(
+            frame,
+            text="",
+            fg='#FFFFFF',
+            bg='#111111',
+            font=('Arial', 14, 'bold'),
+            padx=12,
+            pady=8
+        )
+        self.status_label.pack()
+
+    def show_status(self, text: str, duration_ms: int | None = None):
+        """在屏幕左上角显示状态提示。duration_ms 提供时，超时后自动隐藏。"""
+        try:
+            self._ensure_status_window()
+            # 固定左上角（稍作内边距）
+            pos_x, pos_y = 20, 20
+            self.status_window.geometry(f"+{pos_x}+{pos_y}")
+            self.status_label.config(text=text)
+            self.status_window.deiconify()
+            self.status_window.lift()
+            # 保持最前并强制刷新，避免长任务期间无法立即渲染
+            try:
+                self.status_window.attributes('-topmost', True)
+            except Exception:
+                pass
+            self.status_window.update_idletasks()
+            self.status_window.update()
+            if duration_ms is not None:
+                self.status_window.after(duration_ms, self.hide_status)
+        except Exception:
+            pass
+
+    def hide_status(self):
+        try:
+            if self.status_window and tk.Toplevel.winfo_exists(self.status_window):
+                self.status_window.withdraw()
+        except Exception:
+            pass
+
+    def play_audio(self, wav_path: str):
+        """异步播放音频（macOS 使用 afplay；失败则忽略）。"""
+        def _run():
+            try:
+                if os.path.exists(wav_path):
+                    # macOS 使用 afplay
+                    subprocess.run(["afplay", wav_path], check=False)
+            except Exception:
+                pass
+        t = threading.Thread(target=_run, daemon=True)
+        t.start()
+        
     def load_regions(self):
         """加载保存的区域设置"""
         try:
@@ -51,7 +126,7 @@ class OCRApp:
                 self.regions = json.load(f)
         except FileNotFoundError:
             self.regions = []
-    
+        
     def save_regions(self):
         """保存区域设置"""
         with open('regions.json', 'w', encoding='utf-8') as f:
@@ -63,6 +138,7 @@ class OCRApp:
             try:
                 # 空格键 - 识别文字
                 if key == keyboard.Key.space:
+                    self.show_status("ocr识别")
                     self.recognize_text()
                 
                 # F12 - 打开设置
@@ -73,26 +149,26 @@ class OCRApp:
                 elif (hasattr(key, 'char') and key.char == 'q' and 
                       any(mod == keyboard.Key.ctrl for mod in self.current_modifiers)):
                     self.quit_app()
-                    
+             
             except AttributeError:
                 pass
-        
+         
         def on_release(key):
             pass
-        
+         
         self.current_modifiers = set()
-        
+         
         def on_press_with_modifiers(key):
             if key in [keyboard.Key.shift, keyboard.Key.ctrl, keyboard.Key.alt]:
                 self.current_modifiers.add(key)
             on_press(key)
-        
+         
         def on_release_with_modifiers(key):
             if key in [keyboard.Key.shift, keyboard.Key.ctrl, keyboard.Key.alt]:
                 self.current_modifiers.discard(key)
             on_release(key)
-        
-        # 启动监听器
+         
+         # 启动监听器
         self.listener = keyboard.Listener(
             on_press=on_press_with_modifiers,
             on_release=on_release_with_modifiers
@@ -112,6 +188,7 @@ class OCRApp:
         
         if not self.regions:
             print("没有设置识别区域，请先按F12打开设置")
+            self.show_status("等待", duration_ms=800)
             return
         
         print(f"开始识别 {len(self.regions)} 个区域...")
@@ -146,31 +223,48 @@ class OCRApp:
         else:
             print("\n未识别到任何文字")
         
+        # 角色名回退逻辑：若本轮未识别到角色名，则沿用上一次有效角色名
+        if name_text:
+            self.last_char_name = name_text
+        elif self.last_char_name:
+            name_text = self.last_char_name
+            print(f"角色名未识别，沿用上一次角色：{name_text}")
+        
         # 若具备角色名与文案，尝试用硅基流动TTS
         try:
             if name_text and content_text and hasattr(self, 'tts') and self.tts.api_key:
-                # 查找参考音频（limit=1）
-                from lib.ref.loader import find_audio_by_char_name
-                ref_list = find_audio_by_char_name(name_text, limit=1, fallback_url=False)
+                # 查找参考音频和文本（limit=1）
+                from lib.ref.loader import find_audio_with_text_by_char_name
+                ref_results = find_audio_with_text_by_char_name(name_text, limit=1)
+                print(ref_results)
                 voice_uri = None
-                if ref_list:
-                    ref_path = ref_list[0]
-                    # 以角色名为key，上传或复用音色
-                    voice_uri = self.tts.ensure_voice(name_key=name_text, wav_path=ref_path)
+                if ref_results:
+                    self.show_status("正在上传音色")
+                    ref_data = ref_results[0]
+                    ref_path = ref_data['file_path']
+                    ref_text = ref_data['voice_text']
+                    # 以角色名为key，上传或复用音色，使用参考文本
+                    voice_uri = self.tts.ensure_voice(name_key=name_text, wav_path=ref_path, ref_text=ref_text)
                 
                 # 合成
+                self.show_status("正在tts")
                 audio_bytes = self.tts.synthesize(content_text, voice_uri=voice_uri)
                 if audio_bytes:
-                    os.makedirs('TEMP', exist_ok=True)
+                    os.makedirs('lib/voc_tmp', exist_ok=True)
                     ts = datetime.now().strftime('%Y%m%d_%H%M%S')
-                    out_path = os.path.abspath(os.path.join('TEMP', f'tts_{ts}.wav'))
+                    out_path = os.path.abspath(os.path.join('lib/voc_tmp', f'tts_{ts}.wav'))
                     with open(out_path, 'wb') as f:
                         f.write(audio_bytes)
                     print(f"TTS已生成: {out_path}")
+                    # 自动播放并恢复等待状态
+                    self.play_audio(out_path)
+                    self.show_status("等待", duration_ms=1000)
                 else:
                     print("TTS生成失败或未返回音频。")
+                    self.show_status("等待", duration_ms=1000)
         except Exception as e:
             print(f"TTS流程异常: {e}")
+            self.show_status("等待", duration_ms=1000)
         
         return final_text
     
@@ -621,6 +715,13 @@ class OCRApp:
     def quit_app(self):
         """退出应用"""
         print("正在退出OCR应用...")
+        # 关闭状态窗
+        try:
+            self.hide_status()
+            if self.status_window:
+                self.status_window.destroy()
+        except Exception:
+            pass
         if self.listener:
             self.listener.stop()
         if self.settings_window:
@@ -629,11 +730,10 @@ class OCRApp:
 
 def main():
     """主函数"""
-    app = OCRApp()
-    
-    # 创建主窗口（隐藏）
+    # 创建主窗口（隐藏），先创建 root 再实例化 App，避免多 root 导致 Toplevel 不刷新
     root = tk.Tk()
-    root.withdraw()  # 隐藏主窗口
+    root.withdraw()
+    app = OCRApp(root)
     
     # 运行主循环
     try:

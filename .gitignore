@@ -18,6 +18,7 @@ TEMP/
 # Audio data (large files, download separately)
 lib/voc/
 lib/voc_data/
+lib/*.zip
 
 # Logs
 *.log
