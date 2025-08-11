@@ -1,13 +1,27 @@
-opencv-python==4.6.0.66
-paddlepaddle==2.5.2
-paddleocr==2.7.0.3
+# OCR相关
+opencv-python==4.8.1.78
+paddlepaddle==3.1.0
+paddleocr==3.1.0
 Pillow==10.0.1
-pynput==1.7.6
-pyautogui==0.9.54
-numpy==1.24.3 
-pandas==2.2.2
-pyarrow==15.0.2
-requests==2.32.3 
 modelscope>=1.15.0
-beautifulsoup4==4.12.2
-lxml==4.9.3
+
+# GUI和输入监听
+pynput==1.7.6
+PyAutoGUI==0.9.54
+
+# 数据处理
+numpy==2.3.2
+pandas==2.3.1
+pyarrow==21.0.0
+
+# 网络请求
+requests==2.32.4
+
+# 网页解析
+beautifulsoup4==4.13.4
+lxml==6.0.0
+
+# 环境变量
+python-dotenv==1.1.1
+
+

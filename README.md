@@ -119,13 +119,11 @@ ArknightsAutoDubbing/
 │   ├── voc_data/                   # 语音数据CSV文件（需从ModelScope下载）
 │   ├── voc_tmp/                    # TTS临时文件
 │   ├── ref/                        # 参考音频加载器
-│   │   ├── loader.py               # 音频查找和匹配
-│   │   └── table.parquet           # 音频索引数据
+│   │   └── loader.py               # 音频查找和匹配
 │   ├── ocr.py                      # OCR识别模块
 │   └── tts_service.py              # TTS服务模块
 ├── tests/                          # 测试和工具脚本
 ├── requirements.txt                # Python依赖
-├── setup.py                        # 安装配置
 └── README.md                       # 项目说明
 ```
 
