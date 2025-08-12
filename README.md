@@ -42,6 +42,8 @@ OCR: PaddlePaddle
 
 ### 依赖安装
 
+**注意**：Windows用户建议使用GBK编码的依赖文件 `requirements_gbk.txt`，以避免编码问题。
+
 1. 创建并激活虚拟环境：
 ```bash
 # 创建 Python 3.11 虚拟环境
@@ -55,7 +57,11 @@ venv\Scripts\activate     # Windows
 
 2. 安装Python依赖：
 ```bash
+# macOS/Linux用户
 pip3 install -r requirements.txt
+
+# Windows用户（推荐使用GBK编码的依赖文件）
+pip3 install -r requirements_gbk.txt
 ```
 
 3. 下载音频数据：
@@ -129,11 +135,14 @@ ArknightsAutoDubbing/
 │   ├── ocr.py                      # OCR识别模块
 │   └── tts_service.py              # TTS服务模块
 ├── tests/                          # 测试和工具脚本
-├── requirements.txt                # Python依赖
+├── requirements.txt                # Python依赖（UTF-8编码）
+├── requirements_gbk.txt            # Python依赖（GBK编码，Windows用户推荐）
 └── README.md                       # 项目说明
 ```
 
 **注意**: `lib/voc/` 和 `lib/voc_data/` 目录包含大量音频文件，需要从 [ModelScope 方舟语音数据集](https://www.modelscope.cn/datasets/FrozenFish114/Arknights_voice_zh) 单独下载。
+
+**Windows用户**：请参考 [Windows安装指南](WINDOWS_INSTALL.md) 获取详细的安装说明。
 
 ## 核心功能说明
 
@@ -251,15 +260,27 @@ SILICONFLOW_API_KEY = "your_api_key_here"
    - 验证变量名格式正确（区分大小写）
    - 重启应用以重新加载环境变量
 
+6. **编码问题（Windows用户）**
+   - 使用GBK编码的依赖文件：`pip install -r requirements_gbk.txt`
+   - 确保Python环境支持中文显示
+   - 如果遇到编码错误，尝试设置环境变量：`set PYTHONIOENCODING=utf-8`
+
 6. **Python版本问题**
    - 确保使用 Python 3.11 或更高版本
    - 检查虚拟环境是否正确创建：`python --version`
    - 如果版本不匹配，重新创建虚拟环境：
      ```bash
+     # macOS/Linux
      rm -rf venv
      python3.11 -m venv venv
      source venv/bin/activate
      pip install -r requirements.txt
+     
+     # Windows
+     rmdir /s venv
+     python -m venv venv
+     venv\Scripts\activate
+     pip install -r requirements_gbk.txt
      ```
 
 ## 开发说明
