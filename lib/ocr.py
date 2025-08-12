@@ -1,8 +1,6 @@
-import cv2
-import numpy as np
+
 from paddleocr import PaddleOCR
 from PIL import ImageGrab
-import time
 import os
 from datetime import datetime
 

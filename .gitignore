@@ -14,7 +14,7 @@ venv/
 # Local data
 lib/ref/voices/
 TEMP/
-
+lib/publish
 # Audio data (large files, download separately)
 lib/voc/
 lib/voc_data/

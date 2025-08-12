@@ -29,6 +29,7 @@ class OCRApp:
         self.overlay_window = None
         self.overlay_canvas = None
         self.last_ocr_time = 0  # 添加防抖时间记录
+        self.last_selection_time = 0  # 添加选择防抖时间记录
         # 状态提示窗口
         self.status_window = None
         self.status_label = None
@@ -49,7 +50,7 @@ class OCRApp:
         print("快捷键说明:")
         print("- 空格键: 识别当前设置的区域")
         print("- F12: 打开设置界面")
-        print("- Ctrl+Q: 退出应用")
+        print("- Shift+Ctrl+Q: 退出应用")
 
         # 显示初始等待状态
         self.show_status("等待")
@@ -108,14 +109,62 @@ class OCRApp:
             pass
 
     def play_audio(self, wav_path: str):
-        """异步播放音频（macOS 使用 afplay；失败则忽略）。"""
+        """跨平台异步播放音频"""
         def _run():
             try:
-                if os.path.exists(wav_path):
-                    # macOS 使用 afplay
+                if not os.path.exists(wav_path):
+                    print(f"音频文件不存在: {wav_path}")
+                    return
+                
+                # 回退到系统命令
+                import platform
+                system = platform.system()
+                
+                if system == "Darwin":  # macOS
                     subprocess.run(["afplay", wav_path], check=False)
-            except Exception:
-                pass
+                    print(f"使用afplay播放音频: {wav_path}")
+                elif system == "Windows":  # Windows
+                    # 尝试多种Windows播放方式
+                    try:
+                        # 方式1：使用start命令
+                        subprocess.run(["start", wav_path], shell=True, check=False)
+                        print(f"使用start命令播放音频: {wav_path}")
+                    except Exception as e1:
+                        try:
+                            # 方式2：使用powershell
+                            subprocess.run(["powershell", "-c", f"(New-Object Media.SoundPlayer '{wav_path}').PlaySync()"], check=False)
+                            print(f"使用PowerShell播放音频: {wav_path}")
+                        except Exception as e2:
+                            try:
+                                # 方式3：使用wscript
+                                script = f'''
+                                Set objShell = CreateObject("WScript.Shell")
+                                objShell.Run "{wav_path}", 0, False
+                                '''
+                                with open("temp_play.vbs", "w") as f:
+                                    f.write(script)
+                                subprocess.run(["wscript", "temp_play.vbs"], check=False)
+                                os.remove("temp_play.vbs")
+                                print(f"使用WScript播放音频: {wav_path}")
+                            except Exception as e3:
+                                print(f"Windows音频播放失败: {e1}, {e2}, {e3}")
+                elif system == "Linux":  # Linux
+                    # 尝试使用aplay或paplay
+                    try:
+                        subprocess.run(["aplay", wav_path], check=False)
+                        print(f"使用aplay播放音频: {wav_path}")
+                    except FileNotFoundError:
+                        try:
+                            subprocess.run(["paplay", wav_path], check=False)
+                            print(f"使用paplay播放音频: {wav_path}")
+                        except FileNotFoundError:
+                            print("Linux系统未找到音频播放器，请安装alsa-utils或pulseaudio")
+                else:
+                    print(f"不支持的操作系统: {system}")
+                    
+            except Exception as e:
+                print(f"播放音频时出错: {e}")
+                
         t = threading.Thread(target=_run, daemon=True)
         t.start()
         
@@ -145,9 +194,10 @@ class OCRApp:
                 elif key == keyboard.Key.f12:
                     self.open_settings()
                 
-                # Ctrl+Q - 退出应用
+                # Shift+Ctrl+Q - 退出应用
                 elif (hasattr(key, 'char') and key.char == 'q' and 
-                      any(mod == keyboard.Key.ctrl for mod in self.current_modifiers)):
+                      any(mod == keyboard.Key.ctrl for mod in self.current_modifiers) and 
+                        any(mod == keyboard.Key.shift for mod in self.current_modifiers)):
                     self.quit_app()
              
             except AttributeError:
@@ -371,11 +421,21 @@ class OCRApp:
         self.end_pos = None
         
         # 启动全局鼠标监听
-        self.mouse_listener = MouseListener(
-            on_click=self.on_global_mouse_click,
-            on_move=self.on_global_mouse_move
-        )
-        self.mouse_listener.start()
+        try:
+            # 如果已经有监听器在运行，先停止它
+            if hasattr(self, 'mouse_listener') and self.mouse_listener:
+                self.mouse_listener.stop()
+                self.mouse_listener = None
+            
+            self.mouse_listener = MouseListener(
+                on_click=self.on_global_mouse_click,
+                on_move=self.on_global_mouse_move
+            )
+            self.mouse_listener.start()
+            print("全局鼠标监听器已启动")
+        except Exception as e:
+            print(f"启动鼠标监听器时出错: {e}")
+            self.mouse_listener = None
         
         # 显示提示窗口
         self.show_selection_hint()
@@ -434,18 +494,37 @@ class OCRApp:
     def on_global_mouse_click(self, x, y, button, pressed):
         """全局鼠标点击事件"""
         if button == Button.left:
+            current_time = time.time()
+            
             if pressed:
-                # 鼠标按下
-                self.is_selecting = True
-                self.start_pos = (x, y)
-                print(f"开始选择区域: ({x}, {y})")
+                # 鼠标按下 - 防止重复触发
+                if not self.is_selecting:
+                    # 防抖：检查是否在短时间内重复触发
+                    if current_time - self.last_selection_time < 0.5:  # 0.5秒防抖
+                        print("检测到重复触发，忽略")
+                        return
+                    
+                    self.is_selecting = True
+                    self.start_pos = (x, y)
+                    self.end_pos = None  # 重置结束位置
+                    self.last_selection_time = current_time
+                    print(f"开始选择区域: ({x}, {y})")
             else:
-                # 鼠标释放
-                if self.is_selecting:
-                    self.is_selecting = False
-                    self.end_pos = (x, y)
-                    print(f"完成选择区域: ({x}, {y})")
-                    self.finish_global_selection()
+                # 鼠标释放 - 防止重复触发
+                if self.is_selecting and self.start_pos:
+                    # 检查是否真的有移动（防止点击同一个点）
+                    if self.start_pos != (x, y):
+                        self.is_selecting = False
+                        self.end_pos = (x, y)
+                        print(f"完成选择区域: ({x}, {y})")
+                        self.finish_global_selection()
+                    else:
+                        # 如果点击的是同一个点，取消选择
+                        print("检测到点击同一个点，取消选择")
+                        self.is_selecting = False
+                        self.start_pos = None
+                        self.end_pos = None
+                        self.cleanup_selection()
     
     def on_global_mouse_move(self, x, y):
         """全局鼠标移动事件"""
@@ -480,27 +559,49 @@ class OCRApp:
                 )
             
             # 实时显示选择区域坐标（可选，用于调试）
-            print(f"选择中: ({self.start_pos[0]}, {self.start_pos[1]}) -> ({x}, {y})")
+            # print(f"选择中: ({self.start_pos[0]}, {self.start_pos[1]}) -> ({x}, {y})")
     
     def finish_global_selection(self):
         """完成全局区域选择"""
+        # 防抖：检查是否在短时间内重复调用
+        current_time = time.time()
+        if current_time - self.last_selection_time < 0.5:  # 0.5秒防抖
+            print("检测到重复调用finish_global_selection，忽略")
+            return
+        
         if self.start_pos and self.end_pos:
             # 确保坐标顺序正确
             x1, y1 = self.start_pos
             x2, y2 = self.end_pos
+            
+            # 检查区域是否太小（防止误触）
+            min_size = 10  # 最小区域大小（像素）
+            if abs(x2 - x1) < min_size and abs(y2 - y1) < min_size:
+                print(f"选择区域太小 ({abs(x2 - x1)}x{abs(y2 - y1)})，取消选择")
+                self.cleanup_selection()
+                return
             
             start_x = min(x1, x2)
             start_y = min(y1, y2)
             end_x = max(x1, x2)
             end_y = max(y1, y2)
             
+            print(f"确认选择区域: ({start_x}, {start_y}) -> ({end_x}, {end_y})")
+            
             # 显示最终选择的区域并保持一段时间
             self.show_final_selection(start_x, start_y, end_x, end_y)
-        
-            # 延迟一下让用户看到选择的区域
-            self.overlay_window.after(1000, lambda: self.show_name_dialog(start_x, start_y, end_x, end_y))
+            
+            # 使用线程来延迟显示命名对话框，避免界面卡顿
+            def delayed_show_dialog():
+                time.sleep(1.5)  # 等待1.5秒
+                # 在主线程中显示对话框
+                self.root.after(0, lambda: self.show_name_dialog(start_x, start_y, end_x, end_y))
+            
+            # 启动延迟线程
+            threading.Thread(target=delayed_show_dialog, daemon=True).start()
         else:
             # 如果没有选择区域，直接清理资源
+            print("没有有效的选择区域，清理资源")
             self.cleanup_selection()
     
     def show_final_selection(self, start_x, start_y, end_x, end_y):
@@ -550,9 +651,25 @@ class OCRApp:
     
     def show_name_dialog(self, start_x, start_y, end_x, end_y):
         """显示区域命名对话框"""
+        # 停止鼠标监听，避免在对话框显示期间继续触发事件
+        try:
+            if hasattr(self, 'mouse_listener') and self.mouse_listener:
+                self.mouse_listener.stop()
+                self.mouse_listener = None
+                print("已停止鼠标监听器")
+        except Exception as e:
+            print(f"停止鼠标监听器时出错: {e}")
+            self.mouse_listener = None
+        
         # 清理覆盖窗口，让命名对话框能正常显示
-        if hasattr(self, 'overlay_window') and self.overlay_window:
-            self.overlay_window.destroy()
+        try:
+            if hasattr(self, 'overlay_window') and self.overlay_window:
+                self.overlay_window.destroy()
+                self.overlay_window = None
+                self.overlay_canvas = None
+        except Exception as e:
+            print(f"清理overlay_window时出错: {e}")
+            # 确保变量被重置
             self.overlay_window = None
             self.overlay_canvas = None
         
@@ -614,31 +731,65 @@ class OCRApp:
         
         print(f"添加新区域 '{name}': 起始({start_x}, {start_y}) 结束({end_x}, {end_y})")
         
-        # 关闭对话框
-        self.name_dialog.destroy()
+        # 关闭对话框并清理资源
+        if hasattr(self, 'name_dialog') and self.name_dialog:
+            self.name_dialog.destroy()
+        self.cleanup_selection()
     
     def cancel_naming(self):
         """取消命名"""
-        if hasattr(self, 'name_dialog'):
+        if hasattr(self, 'name_dialog') and self.name_dialog:
             self.name_dialog.destroy()
+        # 取消时也需要清理选择资源
+        self.cleanup_selection()
     
     def cleanup_selection(self):
         """清理选择资源"""
-        if hasattr(self, 'mouse_listener'):
-            self.mouse_listener.stop()
+        try:
+            if hasattr(self, 'mouse_listener') and self.mouse_listener:
+                self.mouse_listener.stop()
+        except Exception as e:
+            print(f"停止mouse_listener时出错: {e}")
         
-        if hasattr(self, 'hint_window'):
-            self.hint_window.destroy()
+        try:
+            if hasattr(self, 'hint_window') and self.hint_window:
+                self.hint_window.destroy()
+        except Exception as e:
+            print(f"销毁hint_window时出错: {e}")
         
-        if hasattr(self, 'selection_window'):
-            self.selection_window.destroy()
+        try:
+            if hasattr(self, 'selection_window') and self.selection_window:
+                self.selection_window.destroy()
+        except Exception as e:
+            print(f"销毁selection_window时出错: {e}")
             
-        if hasattr(self, 'overlay_window') and self.overlay_window:
-            self.overlay_window.destroy()
-            self.overlay_window = None
-            self.overlay_canvas = None
+        try:
+            if hasattr(self, 'overlay_window') and self.overlay_window:
+                self.overlay_window.destroy()
+                self.overlay_window = None
+                self.overlay_canvas = None
+        except Exception as e:
+            print(f"销毁overlay_window时出错: {e}")
         
-        self.settings_window.deiconify()
+        # 重置选择状态
+        self.is_selecting = False
+        self.start_pos = None
+        self.end_pos = None
+        
+        # 确保鼠标监听器也被停止
+        try:
+            if hasattr(self, 'mouse_listener') and self.mouse_listener:
+                self.mouse_listener.stop()
+                self.mouse_listener = None
+        except Exception as e:
+            print(f"停止鼠标监听器时出错: {e}")
+        
+        # 显示设置窗口（如果存在且未显示）
+        if hasattr(self, 'settings_window') and self.settings_window:
+            try:
+                self.settings_window.deiconify()
+            except Exception as e:
+                print(f"显示设置窗口时出错: {e}")
     
     def cancel_selection(self, event=None):
         """取消选择"""
@@ -693,12 +844,10 @@ class OCRApp:
     
     def clear_regions(self):
         """清除所有区域"""
-        if messagebox.askyesno("确认", "确定要清除所有区域吗？"):
-            self.regions.clear()
-            self.save_regions()
-            self.update_region_list()
-            print("已清除所有区域")
-    
+        self.regions.clear()
+        self.save_regions()
+        self.update_region_list()
+
     def test_recognition(self):
         """测试识别功能"""
         if not self.regions:
@@ -715,18 +864,57 @@ class OCRApp:
     def quit_app(self):
         """退出应用"""
         print("正在退出OCR应用...")
-        # 关闭状态窗
+        
+        # 停止所有监听器
+        try:
+            if hasattr(self, 'keyboard_listener') and self.keyboard_listener:
+                self.keyboard_listener.stop()
+        except Exception as e:
+            print(f"停止键盘监听器时出错: {e}")
+        
+        try:
+            if hasattr(self, 'mouse_listener') and self.mouse_listener:
+                self.mouse_listener.stop()
+        except Exception as e:
+            print(f"停止鼠标监听器时出错: {e}")
+        
+        # 关闭状态窗口
         try:
             self.hide_status()
-            if self.status_window:
+            if hasattr(self, 'status_window') and self.status_window:
                 self.status_window.destroy()
-        except Exception:
-            pass
-        if self.listener:
-            self.listener.stop()
-        if self.settings_window:
-            self.settings_window.destroy()
-        exit(0)
+        except Exception as e:
+            print(f"关闭状态窗口时出错: {e}")
+        
+        # 清理所有窗口
+        try:
+            if hasattr(self, 'settings_window') and self.settings_window:
+                self.settings_window.destroy()
+        except Exception as e:
+            print(f"关闭设置窗口时出错: {e}")
+        
+        try:
+            if hasattr(self, 'overlay_window') and self.overlay_window:
+                self.overlay_window.destroy()
+        except Exception as e:
+            print(f"关闭覆盖窗口时出错: {e}")
+        
+        try:
+            if hasattr(self, 'name_dialog') and self.name_dialog:
+                self.name_dialog.destroy()
+        except Exception as e:
+            print(f"关闭命名对话框时出错: {e}")
+        
+        # 停止主循环并退出
+        try:
+            self.root.quit()
+            self.root.destroy()
+        except Exception as e:
+            print(f"退出主窗口时出错: {e}")
+        
+        # 强制退出程序
+        import sys
+        sys.exit(0)
 
 def main():
     """主函数"""
@@ -739,7 +927,13 @@ def main():
     try:
         root.mainloop()
     except KeyboardInterrupt:
+        print("\n收到中断信号，正在退出...")
         app.quit_app()
+    except Exception as e:
+        print(f"程序运行出错: {e}")
+        app.quit_app()
+    finally:
+        print("程序已退出")
 
 if __name__ == "__main__":
     main() 
